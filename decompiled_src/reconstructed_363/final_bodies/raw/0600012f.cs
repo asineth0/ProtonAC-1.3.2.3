@@ -1,0 +1,34 @@
+using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Runtime.CompilerServices;
+namespace FinalBodies {
+  public static class H_0600012f {
+    public unsafe static void M0600012f(ref T_631D551E2DA64E7D __this) {
+      var v1 = T_631D551E2DA64E7D.B8AC76D0B7474AA5();
+      var v2 = T_631D551E2DA64E7D.BD4D8AA2F9B24EF3();
+      var v3 = T_631D551E2DA64E7D.T_1661D0D4A10E4F6D();
+      var v4 = T_631D551E2DA64E7D.T_5D83224C9F1E47DE();
+      var v5 = T_631D551E2DA64E7D.T_9F12A34EFA1F40B3();
+      var v6 = T_631D551E2DA64E7D.T_8594A7CA5D234433();
+      var v7 = T_631D551E2DA64E7D.T_894152C096BD40A5();
+      var v8 = T_631D551E2DA64E7D.T_6C1BE2E93963400C();
+      var v9 = T_631D551E2DA64E7D.T_6083D840E4454CD3();
+      var v10 = T_631D551E2DA64E7D.T_1487386145FE45D6();
+      var v11 = T_631D551E2DA64E7D.D755A7B6E7EB4939();
+      T_631D551E2DA64E7D.T_5EACFACB50C04771(__this, default);
+      T_631D551E2DA64E7D.T_5EACFACB50C04771(__this, default);
+      T_631D551E2DA64E7D.T_5EACFACB50C04771(__this, default);
+      T_631D551E2DA64E7D.T_5EACFACB50C04771(__this, default);
+      T_631D551E2DA64E7D.T_5EACFACB50C04771(__this, default);
+      T_631D551E2DA64E7D.T_5EACFACB50C04771(__this, default);
+      T_631D551E2DA64E7D.T_5EACFACB50C04771(__this, default);
+      T_631D551E2DA64E7D.T_5EACFACB50C04771(__this, default);
+      T_631D551E2DA64E7D.T_5EACFACB50C04771(__this, default);
+      T_631D551E2DA64E7D.T_5EACFACB50C04771(__this, default);
+      T_631D551E2DA64E7D.T_5EACFACB50C04771(__this, default);
+    }
+  }
+}

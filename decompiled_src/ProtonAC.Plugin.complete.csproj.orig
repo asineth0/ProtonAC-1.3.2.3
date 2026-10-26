@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>ProtonAC.Plugin.1.3.2.3</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="ProtonAC.UniTask" />
+    <Reference Include="0Harmony" />
+    <Reference Include="ProtonAC.Microsoft.Extensions.Configuration.Abstractions" />
+    <Reference Include="ProtonAC.Microsoft.Extensions.Logging.Abstractions" />
+    <Reference Include="ProtonAC.Microsoft.Extensions.Localization.Abstractions" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="Assembly-CSharp" />
+    <Reference Include="UnityEngine.PhysicsModule" />
+    <Reference Include="SDG.NetTransport" />
+    <Reference Include="com.rlabrecque.steamworks.net" />
+    <Reference Include="ProtonAC.System.Text.Json" />
+    <Reference Include="SDG.NetPak.Runtime" />
+    <Reference Include="ProtonAC.LiteDB" />
+    <Reference Include="ProtonAC.MySqlConnector" />
+    <Reference Include="ProtonAC.YamlDotNet" />
+    <Reference Include="BouncyCastle.Crypto" />
+    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="ProtonAC.Microsoft.Extensions.Logging" />
+    <Reference Include="UnityEngine.AssetBundleModule" />
+    <Reference Include="UnityEx" />
+    <Reference Include="UnityEngine.TerrainPhysicsModule" />
+    <Reference Include="UnityEngine.VehiclesModule" />
+    <Reference Include="ProtonAC.Microsoft.Extensions.Configuration.Binder" />
+    <Reference Include="UnityEngine.ParticleSystemModule" />
+    <Reference Include="ProtonAC.Microsoft.Extensions.Configuration" />
+    <Reference Include="ProtonAC.System.Runtime.CompilerServices.Unsafe" />
+  </ItemGroup>
+</Project>

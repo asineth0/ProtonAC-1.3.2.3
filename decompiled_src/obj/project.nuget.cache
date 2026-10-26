@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lLpD9oCneSk=",
+  "success": true,
+  "projectFilePath": "C:\\dev\\ProtonRE\\deobf\\complete_src\\ProtonAC.Plugin.complete.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\netstandard.library.ref\\2.1.0\\netstandard.library.ref.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

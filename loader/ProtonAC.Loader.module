@@ -1,0 +1,13 @@
+﻿{
+    "IsEnabled":  true,
+    "Name": "ProtonAC.Loader",
+    "Version": "0.0.0.0",
+    "Assemblies":
+    [
+        {
+            "Path": "/ProtonAC.Loader.dll",
+            "Role": "Server",
+	    "Load_As_Byte_Array": "true"
+        }
+    ]
+}

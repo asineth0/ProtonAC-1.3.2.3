@@ -1,0 +1,105 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Runtime.CompilerServices;
+using System.Threading;
+using System.Threading.Tasks;
+
+internal class _Po
+{
+	[CompilerGenerated]
+	private long _am;
+
+	[CompilerGenerated]
+	private long? _CH;
+
+	public MemoryStream _EN { get; }
+
+	public SemaphoreSlim _bK { get; }
+
+	public SortedDictionary<long, byte[]> _ki { get; }
+
+	public long _qg
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _am;
+		}
+		[CompilerGenerated]
+		set
+		{
+			_am = am;
+		}
+	}
+
+	public long? _5I
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _CH;
+		}
+		[CompilerGenerated]
+		set
+		{
+			_CH = cH;
+		}
+	}
+
+	public TaskCompletionSource<bool> _Gd { get; }
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public _Po()
+	{
+		_200F_206A_200D_202E_206D_202A_206F_202B_202B_206F_202C_202B_206F_202E_206B_200B_200E_206F_206D_202D_206C_200C_200D_202D_200B_206C_202D_206D_206D_200C_202D_202D_202D_200C_206B_206C_202B_206E_200D_202D_202E obj = new _200F_206A_200D_202E_206D_202A_206F_202B_202B_206F_202C_202B_206F_202E_206B_200B_200E_206F_206D_202D_206C_200C_200D_202D_200B_206C_202D_206D_206D_200C_202D_202D_202D_200C_206B_206C_202B_206E_200D_202D_202E(1680971727u);
+		while (true)
+		{
+			int num = 344927613;
+			while (true)
+			{
+				uint num2;
+				switch ((num2 = (uint)(-(~(num ^ 0x65826003) - (((-1751036287 * -(~-1487928606)) ^ (0x3945432F ^ -1778140556 ^ -1425921433)) + (~(-434174264 * -1963706103 + -375261749) - ~2017684110))) * 428703755)) % 7)
+				{
+				case 2u:
+					break;
+				default:
+					return;
+				case 4u:
+					_he = new TaskCompletionSource<bool>((TaskCreationOptions)global::_003CModule_003E._206F_206E_206C_206A_200E_200F_200F_206A_202E_206E_206F_206F_200E_206C_202C_202E_200B_206E_206C_200F_202B_206D_206A_206B_202B_202E_200F_206F_206A_206C_206B_206D_200B_206C_200C_206A_206C_202C_202D_202E<int>((int)(0x3DC271B ^ obj._206D_206A_200F_206E_206C_206C_206D_202E_206C_202B_206B_206A_206C_206C_202A_206F_206C_200D_200D_202B_206E_206F_202A_206C_200E_206E_202B_200D_200D_206F_202C_200F_202D_206E_206F_202D_202D_206B_206E_200D_202E(4, 1751499200u))));
+					num = (int)(num2 * 564480001) ^ -556964526;
+					continue;
+				case 0u:
+					_hl = (SemaphoreSlim)_202E_200D_206E_206B_206F_200F_200D_206A_202D_206D_206E_206F_202D_200C_206F_206C_206C_206B_200E_202E_200C_206A_206A_202C_206B_202E_206C_202C_202A_202E_200D_200D_200E_200B_206D_206E_202C_206E_206E_202A_202E(global::_003CModule_003E._202B_206D_202E_202A_202E_202D_200C_202B_200D_206E_202C_202E_206B_200C_202A_206A_200F_202E_206E_202E_202B_200D_206E_206C_200F_206E_206B_202C_206A_202B_202B_200B_202D_202D_206D_200C_200E_202E_206B_206F_202E<int>(-2130509486 ^ (int)obj._206D_206A_200F_206E_206C_206C_206D_202E_206C_202B_206B_206A_206C_206C_202A_206F_206C_200D_200D_202B_206E_206F_202A_206C_200E_206E_202B_200D_200D_206F_202C_200F_202D_206E_206F_202D_202D_206B_206E_200D_202E(8, 3551560292u)), global::_003CModule_003E._202B_206D_202E_202A_202E_202D_200C_202B_200D_206E_202C_202E_206B_200C_202A_206A_200F_202E_206E_202E_202B_200D_206E_206C_200F_206E_206B_202C_206A_202B_202B_200B_202D_202D_206D_200C_200E_202E_206B_206F_202E<int>((int)(0x6BBD626C ^ obj._206D_206A_200F_206E_206C_206C_206D_202E_206C_202B_206B_206A_206C_206C_202A_206F_206C_200D_200D_202B_206E_206F_202A_206C_200E_206E_202B_200D_200D_206F_202C_200F_202D_206E_206F_202D_202D_206B_206E_200D_202E(5, 960717250u))));
+					num = ((int)num2 * -1026044310) ^ -679379177;
+					continue;
+				case 5u:
+					_vG = (MemoryStream)_200F_206B_206C_200E_206E_202B_202C_202E_200B_206D_206C_202B_200F_206C_202A_200D_206A_206E_206C_202B_200D_200E_202C_202D_202C_206B_202B_202D_200B_206E_200E_206C_202C_202C_206C_206A_200F_206A_206E_202E();
+					num = ((int)num2 * -1955723553) ^ 0x270C9E3E;
+					continue;
+				case 3u:
+					base._002Ector();
+					num = (int)((num2 * 2034198562) ^ 0x5783F3B8);
+					continue;
+				case 1u:
+					_YF = (SortedDictionary<long, byte[]>)Activator.CreateInstance(typeof(SortedDictionary<long, byte[]>));
+					num = ((int)num2 * -1171898708) ^ -1327733417;
+					continue;
+				case 6u:
+					return;
+				}
+				break;
+			}
+		}
+	}
+
+	static object _200F_206B_206C_200E_206E_202B_202C_202E_200B_206D_206C_202B_200F_206C_202A_200D_206A_206E_206C_202B_200D_200E_202C_202D_202C_206B_202B_202D_200B_206E_200E_206C_202C_202C_206C_206A_200F_206A_206E_202E()
+	{
+		return Activator.CreateInstance(typeof(MemoryStream));
+	}
+
+	static object _202E_200D_206E_206B_206F_200F_200D_206A_202D_206D_206E_206F_202D_200C_206F_206C_206C_206B_200E_202E_200C_206A_206A_202C_206B_202E_206C_202C_202A_202E_200D_200D_200E_200B_206D_206E_202C_206E_206E_202A_202E(int P_0, int P_1)
+	{
+		return new SemaphoreSlim(P_0, P_1);
+	}
+}

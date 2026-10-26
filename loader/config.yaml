@@ -1,0 +1,6 @@
+AutoUpdate: true # Do not turn this off if you dont know what to do
+ShutdownServerAfterLoaderUpdated: false
+MemberID: CCP
+Plugins:
+  protonac:
+    licenceKey: China

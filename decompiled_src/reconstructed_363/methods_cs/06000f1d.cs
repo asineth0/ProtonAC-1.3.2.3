@@ -1,0 +1,51 @@
+// ============================================================
+// token 0x06000f1d   395E5F59237B4E3F::4C3E983BB0114883
+// native code: 0x28d958c54b0  (1796 bytes)
+// kind: DISPATCH   confidence: behavior
+// original IL signature:
+//   .method assembly hidebysig static
+//   string '4C3E983BB0114883' () cil managed noinlining
+//   
+// native-calls: 06000f20,06000004,06000005,06000f21,06000f22,06000f23,06000f24,06000f25,06000f26,06000007,06000f27,06000f2a,06000f28,06000f29,06000f2b
+// native-strings: 0x333c:ProtonAC.Loader,0x18:config.yaml,0x3350:MemberID
+// ============================================================
+
+static string 4C3E983BB0114883()
+{
+    // Behavior-level reconstruction (native address order).
+    // This method is part of the obfuscated/hot startup path; the exact IL
+    // is replaced by the recovered call sequence and string references.
+    // 27 call(s):
+    //   0x28d958c5540  395E5F59237B4E3F::F970B6ED9C744353()
+    //   0x28d958c5568  <Module>::390073C602714496(0x6d172a69)   ; "ProtonAC.Loader"
+    //   0x28d958c5590  <Module>::F84FA79ABE6944BB(0x643d9d48)   ; "config.yaml"
+    //   0x28d958c55b0  395E5F59237B4E3F::D513B85D8A594E3D(395E5F59237B4E3F::F970B6ED9C744353(), <Module>::390073C602714496(0x6d172a69), <Module>::F84FA79ABE6944BB(0x643d9d48))
+    //   0x28d958c55c8  395E5F59237B4E3F::00529551FC9B463C(395E5F59237B4E3F::D513B85D8A594E3D(395E5F59237B4E3F::F970B6ED9C744353(), <Module>::390073C602714496(0x6d172a69), <Module>::F84FA79ABE6944BB(0x643d9d48)))
+    //   0x28d958c5640  395E5F59237B4E3F::10B830F8CB504183(395E5F59237B4E3F::D513B85D8A594E3D(395E5F59237B4E3F::F970B6ED9C744353(), <Module>::390073C602714496(0x6d172a69), <Module>::F84FA79ABE6944BB(0x643d9d48)))
+    //   0x28d958c5658  395E5F59237B4E3F::D157BF3665364974()
+    //   0x28d958c5670  395E5F59237B4E3F::43ACAEBC0BA64074(395E5F59237B4E3F::D157BF3665364974(), 395E5F59237B4E3F::10B830F8CB504183(395E5F59237B4E3F::D513B85D8A594E3D(395E5F59237B4E3F::F970B6ED9C744353(), <Module>::390073C602714496(0x6d172a69),
+    //   0x28d958c5680  395E5F59237B4E3F::3CD9AA53F5684245(395E5F59237B4E3F::D157BF3665364974())
+    //   0x28d958c5725  sub_28d958c5ad0((u32 (((((((movsxd 0xb541bcea) not 0x1) not 0x1) not 0x1) div 0xb) mod 0xb) shl 0x3)), ((((((movsxd 0xb541bcea) not 0x1) not 0x1) not 0x1) div 0xb) mod 0xb), <Module>::F84FA79ABE6944BB(0x643d9d48), ?)
+    //   0x28d958c5748  sub_28b82785f1f((u32 (((((((movsxd 0xb541bcea) not 0x1) not 0x1) not 0x1) div 0xb) mod 0xb) shl 0x3)), ((((((movsxd 0xb541bcea) not 0x1) not 0x1) not 0x1) div 0xb) mod 0xb), <Module>::F84FA79ABE6944BB(0x643d9d48), ?)
+    //   0x28d958c5768  ToString((? add 0xffffffffffffffa8), ((((((movsxd 0xb541bcea) not 0x1) not 0x1) not 0x1) div 0xb) mod 0xb), <Module>::F84FA79ABE6944BB(0x643d9d48), ?)
+    //   0x28d958c5798  395E5F59237B4E3F::3CD9AA53F5684245(395E5F59237B4E3F::D157BF3665364974())
+    //   0x28d958c57b8  <Module>::3F57E81A62734AC2(0xffffffff94857146)   ; =0
+    //   0x28d958c57e0  395E5F59237B4E3F::114DCE48BD924962(395E5F59237B4E3F::3CD9AA53F5684245(395E5F59237B4E3F::D157BF3665364974()).f0)
+    //   0x28d958c587d  sub_28d958c5ad0(0x28d9349d398, <Module>::3F57E81A62734AC2(0xffffffff94857146), <Module>::F84FA79ABE6944BB(0x643d9d48), ?)
+    //   0x28d958c58a0  sub_28b82785f1f(0x28d9349d398, <Module>::3F57E81A62734AC2(0xffffffff94857146), <Module>::F84FA79ABE6944BB(0x643d9d48), ?)
+    //   0x28d958c58b8  395E5F59237B4E3F::847813CCD5A4489F(0x0)
+    //   0x28d958c58d0  TryParse(395E5F59237B4E3F::847813CCD5A4489F(0x0), (? add 0xffffffffffffffa8), <Module>::F84FA79ABE6944BB(0x643d9d48), ?)
+    //   0x28d958c59a8  395E5F59237B4E3F::A1631CDB06DD4A89(0x0)
+    //   0x28d958c59d8  <Module>::3F57E81A62734AC2(0xffffffffad0270e1)   ; "MemberID"
+    //   0x28d958c59e8  395E5F59237B4E3F::CED97961F77D4E0B(<Module>::3F57E81A62734AC2(0xffffffffad0270e1))
+    //   0x28d958c5a6f  sub_28d958c5ad0(395E5F59237B4E3F::A1631CDB06DD4A89(0x0), 395E5F59237B4E3F::CED97961F77D4E0B(<Module>::3F57E81A62734AC2(0xffffffffad0270e1)), (? add 0xffffffffffffff90), ?)
+    //   0x28d958c5a90  sub_28b82785f1f(395E5F59237B4E3F::A1631CDB06DD4A89(0x0), 395E5F59237B4E3F::CED97961F77D4E0B(<Module>::3F57E81A62734AC2(0xffffffffad0270e1)), (? add 0xffffffffffffff90), ?)
+    //   0x28d958c5aa7  sub_28d958c5ad0(395E5F59237B4E3F::A1631CDB06DD4A89(0x0), 395E5F59237B4E3F::CED97961F77D4E0B(<Module>::3F57E81A62734AC2(0xffffffffad0270e1)), (? add 0xffffffffffffff90), ?)
+    //   0x28d958c5ac8  sub_28b82785f1f(395E5F59237B4E3F::A1631CDB06DD4A89(0x0), 395E5F59237B4E3F::CED97961F77D4E0B(<Module>::3F57E81A62734AC2(0xffffffffad0270e1)), (? add 0xffffffffffffff90), ?)
+    //   0x28d958c5b68  395E5F59237B4E3F::E9A75BCCD8DE41A4(395E5F59237B4E3F::10B830F8CB504183(395E5F59237B4E3F::D513B85D8A594E3D(395E5F59237B4E3F::F970B6ED9C744353(), <Module>::390073C602714496(0x6d172a69), <Module>::F84FA79ABE6944BB(0x643d9d48
+    // returns: 0x0
+    // string table refs:
+    //   0x333c  "ProtonAC.Loader"
+    //   0x18  "config.yaml"
+    //   0x3350  "MemberID"
+}

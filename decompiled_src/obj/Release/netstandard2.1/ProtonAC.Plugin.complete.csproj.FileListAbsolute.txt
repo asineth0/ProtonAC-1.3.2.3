@@ -1,0 +1,3 @@
+C:\dev\ProtonRE\deobf\complete_src\obj\Release\netstandard2.1\ProtonAC.Plugin.complete.csproj.AssemblyReference.cache
+C:\dev\ProtonRE\deobf\complete_src\obj\Release\netstandard2.1\ProtonAC.Plugin.complete.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\ProtonRE\deobf\complete_src\obj\Release\netstandard2.1\ProtonAC.Plugin.complete.csproj.CoreCompileInputs.cache

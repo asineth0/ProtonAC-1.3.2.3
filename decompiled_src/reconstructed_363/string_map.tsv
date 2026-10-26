@@ -1,0 +1,588 @@
+offset	length	kind	decrypted	call_sites	note
+0x0	7	string	Servers	0600007c@0x28d9581dd48;0600075b@0x28d970cfa10;06001030@0x28d95a376f0	dec=6000005 id=dee790a2 mode=3
+0xc	8	string	ProtonAC	0600007c@0x28d9581dd90;0600075b@0x28d970cefd0;0600075b@0x28d970cf468;0600075b@0x28d970cfa50	dec=6000005 id=ca75e813 mode=3
+0x18	11	string	config.yaml	0600007c@0x28d9581dde0;0600075b@0x28d970ceef0;0600075b@0x28d970cfb10;06000f1d@0x28d958c5590;06000f1e@0x28d95a03fa0	dec=6000004 id=aa3fbb48 mode=3
+0x28	17	string	translations.yaml	0600007c@0x28d9581de28;0600075b@0x28d970cf750	dec=6000007 id=9380037f mode=1
+0x40	19	string	example_config.yaml	0600007c@0x28d9581e258;0600075b@0x28d970cee90	dec=6000006 id=97aafa89 mode=0
+0x58	25	string	example_translations.yaml	0600007c@0x28d9581e1c8	dec=6000007 id=1d1862cb mode=1
+0x78	9	string	ChatGuard	0600007c@0x28d9581e338;0600075b@0x28d970cfa90	dec=6000007 id=88116c23 mode=1
+0x88	16	scalar	int32=0x00000001	06000096@0x28d9723e038;06000096@0x28d9723e128;060000bc@0x28d957ea730;060000bd@0x28d95a1bd70;060000bd@0x28d95a1bf30;0600014b@0x28d97306be0;0600014b@0x28d97306ec0;06000189@0x28d958b78e8;06000189@0x28d958b7b38;06000189@0x28d958b7bf0;06000189@0x28d958b8128;06000189@0x28d958b8d80;06000189@0x28d958b96c8;06000203@0x28d970366a0;06000203@0x28d970367b0;06000203@0x28d97036808;06000203@0x28d97036a10;06000203@0x28d97036ae8;06000206@0x28d972d9ab8;06000290@0x28d9701a170;06000290@0x28d9701a578;06000334@0x28d97034780;06000453@0x28d97014268;06000453@0x28d97014678;06000453@0x28d97014ae8;0600046a@0x28d95a0dcd0;0600046a@0x28d95a0dce8;0600046e@0x28d95a0e400;0600046e@0x28d95a0e618;0600046e@0x28d95a0e9e0;0600047e@0x28d95a12930;0600047e@0x28d95a12970;0600047e@0x28d95a12b38;0600047e@0x28d95a13748;06000661@0x28d970b7108;06000661@0x28d970b7128;06000661@0x28d970b7398;060006aa@0x28d9723e738;060006aa@0x28d9723e7f0;060006aa@0x28d9723e8b0;060006ab@0x28d9723f6c8;060006ab@0x28d9723f850;0600073a@0x28d9722d850;0600075b@0x28d970cf880;06000d0f@0x28d95836350;06000d0f@0x28d95836420;06000d0f@0x28d958364f0;06000d12@0x28d9586f178;06000d2b@0x28d9583d758;06000d2b@0x28d9583da38;06000d2b@0x28d9583e268;06000ecd@0x28d95a02c80;06000ecd@0x28d95a02e08;06000ed7@0x28d9730b5d0;06000ed7@0x28d9730c038;06000ee8@0x28d95a0acd0;06000f0d@0x28d958b5338;06000f0d@0x28d958b55c8;06000f48@0x28d95a19af0;06000f48@0x28d95a19b98;06000faa@0x28d95a0cd00;06001023@0x28d95a2b690;06001023@0x28d95a2bc78;06001030@0x28d95a36b68;0600104f@0x28d95a38e88	dec=6000005 id=67cf2da4 mode=2
+0x8c	4	string	Logs	0600007c@0x28d9581def0;06000189@0x28d958b7738;0600075b@0x28d970cf1e0;0600075b@0x28d970cf3c8;0600075b@0x28d970cf950;06000d12@0x28d9586f158;06000d2b@0x28d9583dc28;06000ebd@0x28d957e3058	dec=6000003 id=10f4f95b mode=2
+0x94	16	scalar	int32=0x00000000	06000096@0x28d9723e0e0;060000ba@0x28d957eb838;060000bc@0x28d957ea4b8;060000c2@0x28d95841b00;06000129@0x28d958b3718;0600014b@0x28d97306ae8;0600014b@0x28d97306de0;06000189@0x28d958b79b8;06000189@0x28d958b8030;06000203@0x28d97036b78;06000203@0x28d97036bf0;06000203@0x28d97036d48;06000203@0x28d97036dd8;06000206@0x28d972d9468;06000206@0x28d972d94e0;06000206@0x28d972d9668;06000206@0x28d972d9a38;06000281@0x28d95a2f940;0600028a@0x28d95a3e488;06000290@0x28d9701a038;06000290@0x28d9701a268;06000290@0x28d9701a2f8;06000290@0x28d9701a470;06000290@0x28d9701ad40;06000334@0x28d970347f0;06000334@0x28d97034f70;06000440@0x28d97017330;06000453@0x28d970145e8;06000453@0x28d97014a80;0600063c@0x28d9722df20;0600063c@0x28d9722dfa0;06000642@0x28d970c5ba0;06000642@0x28d970c5bc8;0600064d@0x28d9722e068;0600064d@0x28d9722e170;06000661@0x28d970b7198;06000661@0x28d970b71c8;06000661@0x28d970b7340;060006aa@0x28d9723e340;060006aa@0x28d9723e500;060006aa@0x28d9723e580;060006aa@0x28d9723e600;060006aa@0x28d9723e9b0;060006aa@0x28d9723ea68;060006ab@0x28d9723f9f0;060006ab@0x28d9723fa28;060006b0@0x28d970df9c8;060006b0@0x28d970dfac0;060006b0@0x28d970dfb88;060006b0@0x28d970dfbc0;060006b0@0x28d970dfc30;0600071c@0x28d9722ce28;0600071c@0x28d9722cf18;0600073a@0x28d9722d5a8;0600073a@0x28d9722d718;0600073a@0x28d9722d760;0600073a@0x28d9722d818;0600075b@0x28d970cf840;06000789@0x28d9722dcc8;060007e5@0x28d970e2d68;06000805@0x28d970e4090;06000815@0x28d9722d4d8;0600082d@0x28d9722de00;0600082d@0x28d9722de70;06000835@0x28d970c63f8;06000835@0x28d970c6420;06000855@0x28d9722dd60;06000cee@0x28d9586a738;06000cfe@0x28d95834d90;06000d13@0x28d9586f4a0;06000d2b@0x28d9583d620;06000d2b@0x28d9583d948;06000d2b@0x28d9583de40;06000d2b@0x28d9583eb00;06000e67@0x28d957e0098;06000eb3@0x28d95a01ab8;06000ebd@0x28d957e2ff8;06000ebd@0x28d957e37c8;06000ecd@0x28d95a02758;06000ed7@0x28d9730b7f8;06000ee8@0x28d95a0b0e0;06000f0d@0x28d958b5140;06000f0d@0x28d958b5460;06000f1d@0x28d958c57b8;06000f1e@0x28d95a04600;06000f48@0x28d95a1a0d0;06000f9e@0x28d95a08528;06000fc6@0x28d95a11850;06001023@0x28d95a2ba58;0600104f@0x28d95a38f38	dec=6000007 id=94857146 mode=2
+0x98	40	string	Wait until bootstrapper was initialized!	060000ba@0x28d957eb5a8;060000ba@0x28d957eb6f8	dec=6000003 id=2481fa78 mode=3
+0xc4	31	string	Selected permission validator: 	060000b9@0x28d95832358	dec=6000007 id=340fe342 mode=1
+0xe8	20	string	Unload func required	0600075b@0x28d970cf298	dec=6000003 id=f595f7cc mode=3
+0x100	28	string	ProtonAnticheatPluginHarmony	060000b9@0x28d958322f8	dec=6000003 id=ca2c0042 mode=2
+0x120	27	string	unitySynchronizationContext	060000ba@0x28d957eb6d8	dec=6000005 id=57c46fea mode=3
+0x140	29	string	unitySynchronizationContetext		
+0x164	65	string	Could not find PlayerLoopHelper.unitySynchronizationContext field		
+0x1ac	12	string	mainThreadId	060000ba@0x28d957eb588;0600075b@0x28d970cee28;0600075b@0x28d970cfb50	dec=6000005 id=b51db57b mode=3
+0x1f4	16	scalar	int32=0x0000ffff	060000ba@0x28d957eb408	dec=6000006 id=78f5e124 mode=3
+0x1f8	30	string	Caught UnobservedTaskException	06000362@0x28d97017958	dec=6000007 id=4464fc03 mode=2
+0x21c	15	string	protonac.loader	060000bc@0x28d957ea618;0600075b@0x28d970cecf8	dec=6000004 id=17ebf971 mode=3
+0x230	16	scalar	int32=0x00000005	060000bc@0x28d957ea638;06000189@0x28d958b8840;06000189@0x28d958b8b10;060006aa@0x28d9723e858;060006b0@0x28d970dfb30;0600075b@0x28d970cf990;06000d2b@0x28d9583dd18;06000ed7@0x28d9730bca0	dec=6000006 id=8a20de15 mode=3
+0x234	16	string	Loader not found	0600075b@0x28d970cef60	dec=6000003 id=6f6f10f5 mode=3
+0x248	24	string	Internal-connection-task	060000bc@0x28d957ea9a0	dec=6000003 id=dae0b64 mode=2
+0x264	20	string	Config was reloaded!		
+0x27c	19	string	Trace: Start called	060000bd@0x28d95a1bdb0	dec=6000003 id=78b10dd7 mode=2
+0x294	31	string	Bootstrapper is not initialized		
+0x2b8	3	string	GPT	060000bd@0x28d95a1c008;06000189@0x28d958b7b78;06000189@0x28d958b88b8;0600075b@0x28d970cf910;06000d12@0x28d9586f0c8;06000d13@0x28d9586f610;06000d2b@0x28d9583dbb0;06000d2b@0x28d9583e180;06000ebd@0x28d957e2f08;06000f48@0x28d95a19a90	dec=6000003 id=f84a18c0 mode=2
+0x2c0	3	string	NPT	060000bd@0x28d95a1c0a8	dec=6000004 id=b024d96e mode=3
+0x2c8	3	string	VPT	060000bd@0x28d95a1c148	dec=6000004 id=cc36061c mode=3
+0x2d0	3	string	MPT	060000bd@0x28d95a1c320	dec=6000003 id=12a012f6 mode=2
+0x2d8	24	string	Proton Anticheat loaded!	060000bd@0x28d95a1bf80	dec=6000004 id=4585f78 mode=3
+0x2f4	29	string	Unable to unload bootstrapper		
+0x338	16	scalar	int32=0xffffffff	060000c3@0x28d958b3290;06000129@0x28d958b36c8;06000185@0x28d958b7290;06000189@0x28d958b7840;0600028a@0x28d95a3e350;06000292@0x28d97033918;06000453@0x28d97014450;06000467@0x28d95a0da78;06000468@0x28d95a12148;0600046e@0x28d95a0e720;0600047e@0x28d95a134a0;06000cfe@0x28d95834cb8;06000d0f@0x28d95836580;06000d11@0x28d9583b9d8;06000d2b@0x28d9583e960;06000e68@0x28d958b3d58;06000e6a@0x28d95a01730;06000e6b@0x28d958df670;06000e6c@0x28d958dd758;06000e72@0x28d95a0a7f0;06000e76@0x28d957e1290;06000e78@0x28d95a02290;06000e79@0x28d9730ab88;06000eb3@0x28d95a01c38;06000ebd@0x28d957e3a70;06000ecd@0x28d95a02670;06000ecd@0x28d95a02bf0;06000ed7@0x28d9730b3e0;06000ed7@0x28d9730b440;06000ed7@0x28d9730be70;06000ee8@0x28d95a0ad50;06000f0d@0x28d958b52d8;06000f0d@0x28d958b5668;06000f46@0x28d95a19640;06000f48@0x28d95a19a08;06000f48@0x28d95a1a2b8;06000f48@0x28d95a1a3b0;06000f48@0x28d95a1a508;06000f9c@0x28d95a08168;06000f9e@0x28d95a089a8;06000fa8@0x28d95a0c480;06000faa@0x28d95a0cc48;06000fc4@0x28d95a11490;06000fc6@0x28d95a11908	dec=6000006 id=f9446e57 mode=3
+0x3a4	16	scalar	int32=0xfffffffe	06000129@0x28d958b3870;06000189@0x28d958b9b48;0600046e@0x28d95a0f698;0600047e@0x28d95a13b48;06000eaa@0x28d958ddaf0;06000eb1@0x28d958df9b8;06000eb3@0x28d95a01dd8;06000ecd@0x28d95a03008;06000ed7@0x28d9730c4f8;06000ee8@0x28d95a0b300;06000f0d@0x28d958b5818;06000f48@0x28d95a1a740;06000f9e@0x28d95a08b40;06000faa@0x28d95a0d158;06000fc6@0x28d95a11ba0	dec=6000006 id=2b6bc4b0 mode=3
+0x3a8	17	string	gravityMultiplier		
+0x3c0	27	string	maxAimingAccuracyReciprocal		
+0x3e0	11	string	aimAccuracy		
+0x3f0	16	string	firstAttachments		
+0x404	16	string	thirdAttachments		
+0x418	25	string	shouldEnableTacticalStats		
+0x438	21	string	GetSimulationAimAlpha	0600075b@0x28d970cf2f8	dec=6000004 id=51ee1700 mode=2
+0x454	20	string	fakeLagPenaltyFrames		
+0x46c	16	string	onInputCommitted		
+0x480	14	string	clientPlatform	0600075b@0x28d970ced60	dec=6000006 id=95b247b9 mode=3
+0x494	3	string	seq		
+0x49c	23	string	mostRecentlyAddedUpdate		
+0x4b8	26	string	hasMostRecentlyAddedUpdate		
+0x4d8	13	string	rootRigidbody	0600075b@0x28d970cedc0;0600075b@0x28d970cf7f8	dec=6000006 id=1b3c252f mode=3
+0x4ec	8	string	buoyancy		
+0x4f8	11	string	rubbleInfos		
+0x508	15	string	aliveGameObject		
+0x51c	14	string	deadGameObject		
+0x530	8	string	collider		
+0x53c	30	string	ProtonAC.BarricadeGeometryScan	0600014b@0x28d97306a98	dec=6000004 id=1bfeae9 mode=3
+0x588	16	scalar	int32=0x00000012	0600075b@0x28d970cf6f0	dec=6000006 id=4d5d7fb mode=3
+0x5a8	16	scalar	int32=0x3f800000	06000661@0x28d970b73b8;0600075b@0x28d970cf090	dec=6000007 id=aef4be5f mode=2
+0x5b0	10	string	/Barricade	060006aa@0x28d9723e798;060006b0@0x28d970dfbf8;0600075b@0x28d970cf360;0600075b@0x28d970cfad0	dec=6000005 id=29714ace mode=2
+0x5c0	7	string	.prefab		
+0x5cc	17	string	/barricade.prefab		
+0x5ec	13	string	hasClipPrefab	06000155@0x28d97303808	dec=6000004 id=2801613d mode=3
+0x600	49	string	http://ip-api.com/line/?fields=status,countryCode	06000189@0x28d958b78b0	dec=6000005 id=89646722 mode=3
+0x638	16	scalar	int32=0x00000002	06000189@0x28d958b80e8;06000189@0x28d958b8270;06000203@0x28d970369f0;06000203@0x28d97036bd0;06000203@0x28d97036c50;06000290@0x28d97019fc8;06000290@0x28d9701a358;06000290@0x28d9701a420;0600046e@0x28d95a0e440;0600047e@0x28d95a12d50;0600047e@0x28d95a136c0;06000661@0x28d970b70c8;06000661@0x28d970b72f8;060006aa@0x28d9723e918;060006b0@0x28d970dfb58;0600075b@0x28d970cf8c8;06000d2b@0x28d9583dac0;06000d2b@0x28d9583e110;06000d2b@0x28d9583e340;06000ed7@0x28d9730bbe8;06000ed7@0x28d9730bf00;06000f48@0x28d95a1a028;06001030@0x28d95a36bb0;0600104f@0x28d95a38f08	dec=6000004 id=4da2eb80 mode=2
+0x63c	7	string	success	06000189@0x28d958b8ad8	dec=6000005 id=7f9ed7df mode=3
+0x648	2	string	RU	06000189@0x28d958b87f8	dec=6000007 id=2257cf7 mode=1
+0x6cc	29	string	Detections:Analysis:ChatGuard	06000203@0x28d97036598	dec=6000006 id=23e9346a mode=0
+0x6f0	10	string	Executions	06000203@0x28d97036948	dec=6000005 id=bec0e59e mode=3
+0x700	16	scalar	int32=0x00000020	06000203@0x28d970369d0;06000290@0x28d9701a3e0	dec=6000007 id=5b0d873d mode=2
+0x704	16	scalar	int32=0x0000003a	06000203@0x28d97036bb0;06000290@0x28d9701a2b8	dec=6000006 id=de207f98 mode=3
+0x708	0	string		06001022@0x28d95a1cbb8	dec=6000006 id=2943f05b mode=0
+0x70c	9	string	[steamID]		
+0x71c	11	string	[steamName]		
+0x72c	4	string	[vl]		
+0x734	15	string	[checkCategory]		
+0x748	9	string	[message]		
+0x758	6	string	[warn]	0600075b@0x28d970cf9d0;06000cee@0x28d9586a708;06000d2b@0x28d9583d8d0;06000d2b@0x28d9583e0c0	dec=6000006 id=3cb62d4f mode=3
+0x764	28	string	JSON content cannot be empty		
+0x784	11	string	jsonContent		
+0x794	39	string	Failed to deserialize ChatGuard config.		
+0x7f4	1	string	|		
+0x834	36	string	[ChatGuard] Invalid bad word regex '		
+0x85c	15	string	' was skipped: 		
+0x870	70	string	[ChatGuard] Bad word matching timed out, check the configured regexes.		
+0x8c0	16	scalar	int32=0x00000000	0600020a@0x28d97034308;0600037f@0x28d97016bc0	dec=6000007 id=3fb15a6d mode=2
+0x8c8	16	scalar	int32=0x00000000	0600020a@0x28d97034348;060006aa@0x28d9723e6f0	dec=6000006 id=c2dd252b mode=3
+0x8d0	17	string	Database:Provider	06000247@0x28d97039080	dec=6000005 id=d4803596 mode=3
+0x8e8	6	string	LiteDB	06000247@0x28d970390a8;06000247@0x28d97039548	dec=6000003 id=e39585cc mode=2
+0x8f4	5	string	mysql	06000247@0x28d97039108	dec=6000003 id=a77e8605 mode=2
+0x900	6	string	litedb	06000247@0x28d97039150	dec=6000004 id=e5134d7e mode=3
+0x90c	21	string	Database:MySql:Server		
+0x928	9	string	127.0.0.1		
+0x938	19	string	Database:MySql:Port		
+0x954	23	string	Database:MySql:Database		
+0x970	8	string	ProtonDb		
+0x97c	23	string	Database:MySql:Username		
+0x998	23	string	Database:MySql:Password		
+0x9b4	6	string	123123		
+0x9c0	24	string	Database:LiteDB:Database	06000247@0x28d970394b8	dec=6000005 id=42b0fb92 mode=3
+0x9dc	11	string	Database.db	06000247@0x28d970394e0	dec=6000005 id=dc78b0c7 mode=3
+0x9f4	47	string	[PerformanceScheduler] Unhandled exception: {0}		
+0xa28	16	scalar	int32=0x00000000	0600028a@0x28d95a3e398	dec=6000006 id=efa9bf93 mode=3
+0xa30	10	string	Detections	06000290@0x28d97019b28	dec=6000006 id=61c16015 mode=0
+0xa40	10	string	Punishment	06000290@0x28d97019df0	dec=6000004 id=8264524e mode=3
+0xa50	36	string	[Config] Invalid punishment format: 		
+0xa78	15	string	ExpireViolation	06000290@0x28d9701a6d8	dec=6000003 id=6a999c10 mode=2
+0xa8c	16	scalar	int32=0x0000012c	06000290@0x28d9701a730	dec=6000007 id=bdf5741c mode=2
+0xa90	16	scalar	int32=0x000003e8	06000290@0x28d9701a8d0	dec=6000004 id=19fd463a mode=2
+0xa94	55	string	Error while loading punishments configuration template!		
+0xad0	26	string	messages:flags:log-console		
+0xaf0	22	string	messages:flags:verbose	0600075b@0x28d970cf688	dec=6000003 id=9fe7a2be mode=3
+0xb0c	37	string	https://proton-anticheat.dev/icon.png		
+0xb38	10	string	[delayed] 		
+0xb48	41	string	Execute delayed command {0} to player {1}		
+0xb78	10	string	[webhook] 		
+0xb88	24	string	Settings:Webhooks:InGame		
+0xba4	17	string	Execute webhook: 		
+0xbbc	17	string	Execute command: 		
+0xbd4	7	string	[level]		
+0xbe0	11	string	[checkType]		
+0xbf0	4	string	page		
+0xbf8	75	string	The page number must be greater than or equal to 1 and not greater than 100		
+0xc48	16	scalar	int32=0x00000000	06000e67@0x28d957e00e0;06000ed7@0x28d9730bb18	dec=6000005 id=3d412794 mode=2
+0xc50	39	string	Unhandled exception during DelayedTask-		
+0xc7c	42	string	Unhandled exception during WebhookTask-{0}		
+0xcac	15	string	[spyscreenshot]		
+0xcc8	56	string	Unhandled exception during take screenshot of player {0}		
+0xd04	3	string	png		
+0xd0c	33	string	Failed to send event transaction!		
+0xd34	53	string	[FlagScheduler] Error processing flag for player {0}.		
+0xda0	3	string	mp4		
+0xdbc	1	string	{		
+0xdc4	10	string	parameters		
+0xdd4	16	scalar	int32=0x00000000	060006aa@0x28d9723e6c8	dec=6000004 id=24fa8933 mode=2
+0xddc	11	string	retry_after		
+0xdf8	1	string	—		
+0xe04	1	string	…		
+0xe0c	1	string	👤		
+0xe14	19	string	webhook:player_name		
+0xe2c	2	string	 (		
+0xe34	1	string	)		
+0xe3c	1	string	🆔		
+0xe44	21	string	webhook:steam_profile		
+0xe60	23	string	[{0}]({1}{2}) (OS: {3})		
+0xe7c	36	string	https://steamcommunity.com/profiles/		
+0xea4	1	string	📶		
+0xeac	19	string	webhook:player_ping		
+0xec4	6	string	{0} ms		
+0xedc	20	string	webhook:session_time		
+0xef4	23	string	Settings:API:Connection		
+0xf10	28	string	Settings:Webhooks:Connection		
+0xf30	19	string	Settings:API:InGame		
+0xf48	21	string	Settings:API:Battleye		
+0xf64	26	string	Settings:Webhooks:Battleye		
+0xf84	3	string	{0}		
+0xf8c	16	scalar	int32=0x00000000	0600037f@0x28d97016c70	dec=6000004 id=e5279675 mode=2
+0xf94	16	scalar	int32=0x00000000	0600037f@0x28d97016cc8	dec=6000003 id=de86eb8d mode=3
+0xf9c	2	string	**		
+0xfa8	3	string	:**		
+0xfb0	8	string	**{0}:**		
+0xfbc	14	string	webhook:server		
+0xfd0	13	string	[{0}]({1}{2})		
+0xfe4	47	string	https://api.proton-anticheat.dev/steam/connect/		
+0x1018	21	string	webhook:server_online		
+0x1034	7	string	{0}/{1}		
+0x1040	16	string	Proton AntiCheat		
+0x1054	16	scalar	int32=0x0000002c	060006ab@0x28d9723f9d8	dec=6000003 id=79160b1d mode=3
+0x1058	31	string	Failed to send the API request.		
+0x107c	4	string	type		
+0x1084	8	string	battleye		
+0x1090	6	string	reason		
+0x109c	15	string	player_steam_id		
+0x10b0	16	string	player_name_game		
+0x10c4	17	string	player_name_steam		
+0x10dc	15	string	player_platform		
+0x10f0	11	string	player_ping		
+0x1100	12	string	session_time		
+0x1130	1	string	🚩		
+0x1138	14	string	webhook:reason		
+0x1164	4	string	game		
+0x116c	10	string	flag_level		
+0x117c	13	string	flag_category		
+0x1190	8	string	{0}({1})		
+0x119c	11	string	{0}_spy.{1}		
+0x11ac	18	string	webhook:flag_level		
+0x11d0	21	string	webhook:flag_category		
+0x11ec	29	string	Settings:Webhooks:GlitchBases		
+0x1210	26	string	webhook:titles:glitchbases		
+0x1230	7	string	map.png		
+0x123c	21	string	Settings:Webhooks:VPN		
+0x1258	18	string	webhook:titles:vpn		
+0x1270	4	string	Type		
+0x1278	1	string	🌐		
+0x1280	3	string	ASN		
+0x1288	1	string	📡		
+0x1290	3	string	ISP		
+0x1298	1	string	📍		
+0x12a0	8	string	Location		
+0x12ac	9	string	telegram,		
+0x12bc	3	string	🛑 *		
+0x12c8	1	string	*		
+0x12d0	1	string	 		
+0x12d8	2	string	 *		
+0x12e0	3	string	:* 		
+0x1308	16	string	🌐 *{0}:* {1}/{2}		
+0x1320	31	string	*Protected by Proton AntiCheat*		
+0x1344	25	string	Webhook failed ({0}): {1}		
+0x1364	58	string	Webhook returned {0}. Retry after {1:F2}s, attempt {2}/{3}		
+0x13a4	23	string	Webhook request failed.		
+0x13c0	16	scalar	int32=0x00000000	06000ebd@0x28d957e3ae0	dec=6000006 id=6b5a16e9 mode=3
+0x13c8	66	string	Webhook request failed ({0}). Retry after {1:F0}s, attempt {2}/{3}		
+0x1410	45	string	[BulkLoggingService] Unhandled exception: {0}		
+0x1444	71	string	[BulkLoggingService] Serialization worker faulted, log delivery stopped		
+0x1490	83	string	[BulkLoggingService] Serialization worker exited unexpectedly, log delivery stopped		
+0x14e8	16	scalar	int32=0x00000000	06000453@0x28d97014338;06000ecd@0x28d95a02d20	dec=6000003 id=3a954ccc mode=3
+0x14f4	51	string	Logs dropped due to full outgoing queue! Count: {0}		
+0x152c	35	string	Unhandled exception during log tick		
+0x1554	22	string	Instance.DO_NOT_DELETE	0600046e@0x28d95a0f030;0600047e@0x28d95a12ab8	dec=6000007 id=354bb836 mode=1
+0x1570	44	string	Failed to initialize proton cloud connection		
+0x15a0	7	string	Backups	0600047e@0x28d95a12670	dec=6000006 id=79a0b971 mode=0
+0x15ac	10	string	Connection	0600047e@0x28d95a126d0	dec=6000004 id=2ae422ad mode=3
+0x15bc	7	string	{0}-{1}		
+0x15c8	32	string	failed to backup connection file		
+0x15ec	41	string	Failed to save proton cloud connection id		
+0x161c	27	string	Failed to send event {type}		
+0x163c	31	string	Failed to send draw map request		
+0x1660	35	string	Failed to send render video request		
+0x1688	32	string	Detections:Raycast:Basic:Enabled	0600063c@0x28d9722df00	dec=6000005 id=98ee4024 mode=3
+0x16ac	33	string	Detections:Raycast:Basic:Mitigate	0600063c@0x28d9722df80	dec=6000007 id=8d48a674 mode=1
+0x16d4	33	string	Detections:Raycast:Bullet:Enabled	0600064d@0x28d9722e048	dec=6000004 id=7401a173 mode=3
+0x16fc	34	string	Detections:Raycast:Bullet:Mitigate	0600064d@0x28d9722e150	dec=6000003 id=3ad069f7 mode=2
+0x1724	3	string	TTT	06000661@0x28d970b7290	dec=6000004 id=cb9a955f mode=3
+0x172c	16	scalar	int32=0xbf800000	06000661@0x28d970b7360	dec=6000007 id=a1648114 mode=2
+0x1730	54	string	Detections:Analysis:ChatGuard:StringSimilarity:Enabled	060006aa@0x28d9723e320	dec=6000003 id=3297746e mode=2
+0x176c	57	string	Detections:Analysis:ChatGuard:StringSimilarity:Percentage	060006aa@0x28d9723e670	dec=6000004 id=7225c9d mode=3
+0x17ac	16	scalar	int32=0x00000000	060006aa@0x28d9723e690;060006b0@0x28d970df9f8	dec=6000006 id=1894aa32 mode=3
+0x17b4	57	string	Detections:Analysis:ChatGuard:StringSimilarity:Expiration	060006aa@0x28d9723e780	dec=6000003 id=ebce7b55 mode=2
+0x17f4	54	string	Detections:Analysis:ChatGuard:StringSimilarity:History	060006aa@0x28d9723e838	dec=6000004 id=6220be6b mode=3
+0x1830	54	string	Detections:Analysis:ChatGuard:StringSimilarity:Allowed	060006aa@0x28d9723e8f8	dec=6000006 id=b1a4395 mode=0
+0x186c	51	string	Detections:Analysis:ChatGuard:MessageLength:Enabled	060006aa@0x28d9723e990	dec=6000004 id=a75622dd mode=3
+0x18a4	53	string	Detections:Analysis:ChatGuard:MessageLength:MaxLength	060006aa@0x28d9723ea10	dec=6000004 id=aabb90bf mode=3
+0x18e0	16	scalar	int32=0x00000100	060006aa@0x28d9723ea30;060006b0@0x28d970dfaf8	dec=6000006 id=77a806a1 mode=3
+0x18e4	16	scalar	int32=0x00000200	060006aa@0x28d9723ea88	dec=6000005 id=9dcd77e9 mode=2
+0x18e8	47	string	Detections:Analysis:ChatGuard:AntiLinks:Enabled	060006aa@0x28d9723e4e0	dec=6000003 id=3f94a1cc mode=2
+0x191c	50	string	Detections:Analysis:ChatGuard:AntiBadWords:Enabled	060006aa@0x28d9723e560	dec=6000004 id=cd979931 mode=3
+0x1954	51	string	Detections:Analysis:ChatGuard:CharWhitelist:Enabled	060006aa@0x28d9723e5e0	dec=6000007 id=946ce336 mode=1
+0x198c	43	string	Detections:Analysis:ChatGuard:ChatsForCheck	060006aa@0x28d9723e410	dec=6000005 id=3bfc17f3 mode=3
+0x19bc	12	string	GLOBAL,LOCAL	060006aa@0x28d9723e438	dec=6000005 id=46a8313f mode=3
+0x19cc	31	string	[ChatGuard] Unknown chat mode '		
+0x1a20	35	string	build magnitude too high: {0} > {1}		
+0x1a48	7	string	type: A		
+0x1a54	12	string	type: B (h: 		
+0x1a64	32	string	Detections:Barricade:{0}:Enabled		
+0x1a88	17	string	 build: {0} ({1})		
+0x1ac8	16	scalar	int32=0x1819c000	060006fa@0x28d970d3d58	dec=6000003 id=54ccbc84 mode=3
+0x1acc	16	scalar	int32=0x41584000	060006fa@0x28d970d3e10	dec=6000006 id=9efa796a mode=3
+0x1ad0	39	string	Detections:Analysis:FastSalvage:Enabled	0600071c@0x28d9722ce08	dec=6000003 id=9c9ebcf6 mode=2
+0x1afc	40	string	Detections:Analysis:FastSalvage:Mitigate	0600071c@0x28d9722cef8	dec=6000006 id=facb3866 mode=0
+0x1b40	37	string	Settings:MitigateInteractThroughWalls	0600073a@0x28d9722d588	dec=6000004 id=2298188e mode=3
+0x1b6c	39	string	Detections:InteractDistance:{0}:Enabled	0600073a@0x28d9722d6b0	dec=6000006 id=322ddf02 mode=0
+0x1b98	40	string	Detections:InteractDistance:{0}:Mitigate	0600073a@0x28d9722d7b0	dec=6000003 id=5d40cf38 mode=2
+0x1be0	3	string	PRT	0600075b@0x28d970cec20	dec=6000005 id=9e9a3a9a mode=3
+0x1be8	16	scalar	int32=0x1a1bc001	0600075b@0x28d970cf188	dec=6000007 id=c0e952f mode=2
+0x1bec	16	scalar	int32=0x40900000	0600075b@0x28d970cf110	dec=6000007 id=7eaf7404 mode=2
+0x1bf8	35	string	Detections:Analysis:SpinBot:Enabled	06000789@0x28d9722dca8	dec=6000007 id=16921083 mode=1
+0x1c20	38	string	Unhandler error during sending webhook		
+0x1c4c	46	string	[{0}](https://steamcommunity.com/profiles/{1})		
+0x1c80	48	string	Unhandler error during checking {0} player hwids		
+0x1cb4	2	string	, 		
+0x1cbc	51	string	There are **{0}** players found with same HWID: {1}		
+0x1cf4	29	string	webhook:titles:other_accounts		
+0x1d18	14	string	Local: **{0}**		
+0x1d2c	1	string	\n	06001030@0x28d95a371a8	dec=6000007 id=4f376c94 mode=1
+0x1d34	20	string	Steam Cloud: **{0}**		
+0x1d4c	35	string	Unique HWIDs in the last 24 hours:\n		
+0x1d74	27	string	webhook:titles:changed_hwid		
+0x1d94	29	string	webhook:titles:connect_punish		
+0x1ddc	1	string	.		
+0x1de4	1	string	(		
+0x1dec	1	string	,		
+0x1df4	32	string	Detections:FakeLag:Input:Enabled	06000815@0x28d9722d4c0	dec=6000007 id=b2a2f22e mode=1
+0x1e18	16	string	type: C (p: {0})		
+0x1e30	7	string	type: B		
+0x1e54	36	string	Detections:Analysis:NoRecoil:Enabled	0600082d@0x28d9722dde8	dec=6000003 id=4495ee9d mode=2
+0x1e7c	37	string	Detections:Analysis:NoRecoil:Mitigate	0600082d@0x28d9722de58	dec=6000005 id=1bd56cef mode=3
+0x1ea8	13	string	startedReload	06000835@0x28d970c6330	dec=6000007 id=d8ea1d9f mode=1
+0x1ebc	10	string	reloadTime	06000835@0x28d970c6398	dec=6000004 id=f20d9449 mode=3
+0x1ecc	36	string	Detections:Analysis:NoSpread:Enabled	06000855@0x28d9722dd48	dec=6000007 id=a9fe06c mode=1
+0x1ef4	30	string	Steam profile check timed out.		
+0x1f18	59	string	An unhandled exception occurred during steam profile check.		
+0x1f58	6	string	304930		
+0x1f64	45	string	checks:steam_profile_analyser:private_profile		
+0x1f98	44	string	Failed to parse profile level for {SteamId}.		
+0x1fc8	47	string	checks:steam_profile_analyser:low_profile_level		
+0x1ffc	78	string	Failed to fetch profile level for {SteamId} due to an API limitation or error.		
+0x2050	45	string	checks:steam_profile_analyser:hidden_activity		
+0x2084	45	string	checks:steam_profile_analyser:hidden_unturned		
+0x20b8	53	string	Ban command for insufficient hours is not configured.		
+0x20f8	54	string	checks:steam_profile_analyser:ban_if_not_enought_hours		
+0x2134	8	string	[reason]		
+0x2140	9	string	[bantime]		
+0x2150	52	string	checks:steam_profile_analyser:kick_not_enought_hours		
+0x2188	51	string	Failed to fetch MemberSince field from {0} profile.		
+0x21c0	59	string	Ban command for insufficient member time is not configured.		
+0x2200	74	string	Banning user {0}: account age {1:F1} days is less than required {2} days. 		
+0x2250	35	string	Unban in {0:F2} days ({1} seconds).		
+0x2278	54	string	checks:steam_profile_analyser:ban_if_account_too_young		
+0x22b4	18	string	Executed command: 		
+0x22cc	52	string	checks:steam_profile_analyser:kick_account_too_young		
+0x2304	62	string	Player {SteamId} successfully passed all steam profile checks.		
+0x2348	55	string	checks:steam_profile_analyser:fail_counter_final_reason		
+0x2384	54	string	checks:steam_profile_analyser:fail_counter_kick_reason		
+0x23c0	67	string	Command template for reason '{Reason}' is not set in configuration.		
+0x2408	29	string	Player connection was denied!		
+0x242c	7	string	[kick] 		
+0x2438	23	string	yyyy-MM-dd HH:mm:ss.fff		
+0x2454	43	string	Log directory path cannot be null or empty.		
+0x2484	13	string	directoryPath		
+0x2498	30	string	Error creating log directory '		
+0x24bc	3	string	': 		
+0x24c4	5	string	*.log	06000cfe@0x28d95834c18	dec=6000003 id=eb916659 mode=2
+0x24d0	37	string	Failed to deleted outdated log file '		
+0x24fc	22	string	internalLogInformation	06000d0f@0x28d95836310	dec=6000003 id=a24f6977 mode=2
+0x2518	18	string	internalLogWarning	06000d0f@0x28d958363e8	dec=6000006 id=a90908df mode=0
+0x2530	16	string	internalLogError	06000d0f@0x28d958364b8	dec=6000007 id=7923f969 mode=1
+0x2544	12	string	logDirectory		
+0x2554	33	string	[38;2;84;104;255m[ProtonAC][0m 	06000d12@0x28d9586f2d8	dec=6000005 id=75cf38c5 mode=3
+0x257c	4	string	TRCE	06000d14@0x28d9586e698	dec=6000007 id=fb148338 mode=1
+0x2584	4	string	DBUG	06000d14@0x28d9586e630	dec=6000007 id=a642e32 mode=1
+0x258c	4	string	INFO	06000d14@0x28d9586e598	dec=6000007 id=efa5ebdc mode=1
+0x2594	4	string	WARN		
+0x259c	4	string	FAIL		
+0x25a4	4	string	CRIT		
+0x25ac	4	string	NONE		
+0x25b4	33	string	Error disposing log file writer: 		
+0x25dc	1	string	[	06000d2b@0x28d9583d9c0	dec=6000007 id=e4375480 mode=1
+0x25e4	3	string	] [	06000d2b@0x28d9583db38	dec=6000006 id=8214d920 mode=0
+0x25ec	3	string	]: 	06000d2b@0x28d9583dca0	dec=6000005 id=6cf0338b mode=3
+0x25f4	29	string	ProtonLogs-{0:dd-MM-yyyy}.log	06000d2b@0x28d9583e008	dec=6000006 id=e6441a24 mode=0
+0x2618	27	string	Error writing to log file: 		
+0x2638	494	string	\nCREATE TABLE IF NOT EXISTS hardwareIDHistory (\n    Id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,\n    SteamId BIGINT UNSIGNED NOT NULL,\n    Timestamp BIGINT NOT NULL,\n    HardwareIndex INT NOT NULL,\n    HardwareID TEXT NOT NULL,\n    INDEX IX_hardwareIDHistory_SteamId (SteamId),\n    INDEX IX_hardwareIDHistory_Timestamp (Timestamp),\n    INDEX IX_hardwareIDHistory_HardwareID (HardwareID(255))\n);\n\nCREATE TABLE IF NOT EXISTS verifiedPlayers (\n    SteamId BIGINT UNSIGNED NOT NULL PRIMARY KEY\n);		
+0x282c	138	string	\nINSERT INTO hardwareIDHistory (SteamId, Timestamp, HardwareIndex, HardwareID)\nVALUES (@steamId, @timestamp, @hardwareIndex, @hardwareId);		
+0x28bc	8	string	@steamId		
+0x28c8	10	string	@timestamp		
+0x28d8	14	string	@hardwareIndex		
+0x28ec	11	string	@hardwareId		
+0x28fc	67	string	\nSELECT HardwareID\nFROM hardwareIDHistory\nWHERE SteamId = @steamId;		
+0x2944	79	string	\nSELECT DISTINCT SteamId\nFROM hardwareIDHistory\nWHERE HardwareID = @hardwareId;		
+0x2998	146	string	\nSELECT DISTINCT HardwareID\nFROM hardwareIDHistory\nWHERE SteamId = @steamId\n  AND HardwareIndex = @hardwareIndex\n  AND Timestamp >= @minTimestamp;		
+0x2a30	13	string	@minTimestamp		
+0x2a44	64	string	\nINSERT IGNORE INTO verifiedPlayers (SteamId)\nVALUES (@steamId);		
+0x2ae4	16	string	application/json		
+0x2af8	9	string	form-data		
+0x2b08	14	string	"payload_json"		
+0x2b1c	24	string	application/octet-stream		
+0x2b38	6	string	"file"		
+0x2b44	1	string	"		
+0x2b4c	6	string	proton		
+0x2b58	5	string	green		
+0x2b70	6	string	yellow		
+0x2b7c	26	string	<color={0}>{1:0.0}</color>		
+0x2b9c	30	string	Plugin has not been loaded yet		
+0x2bc0	7	string	version		
+0x2bcc	7	string	verbose		
+0x2bd8	5	string	alert		
+0x2be4	11	string	glitchbases		
+0x2bf4	11	string	performance		
+0x2c04	8	string	takeitem		
+0x2c10	8	string	losstest		
+0x2c1c	35	string	ProtonAC <color=#5468ff>{0}</color>		
+0x2c44	22	string	proton.command.verbose		
+0x2c60	22	string	commands:no-permission		
+0x2c7c	16	string	Only for players		
+0x2c90	20	string	commands:verbose:off		
+0x2ca8	19	string	commands:verbose:on		
+0x2cc0	20	string	proton.command.alert		
+0x2cd8	19	string	No message provided		
+0x2cf0	14	string	proton.verbose		
+0x2d04	26	string	proton.command.glitchbases		
+0x2d24	24	string	Processing, please wait!		
+0x2d48	74	string	The process of rendering glitchbases was unsuccessful. See console errors.		
+0x2d98	28	string	Scan result sent to webhook!		
+0x2db8	27	string	Failed to draw glitchbases!		
+0x2dd8	27	string	There is no glitch bases :)		
+0x2df8	26	string	proton.command.performance		
+0x2e18	3	string	 | 		
+0x2e20	1	string	/		
+0x2e28	46	string	Name | Last | 1s Max/Min/Avg | 10s Max/Min/Avg		
+0x2e5c	23	string	proton.command.takeitem		
+0x2e78	31	string	commands:profile:player-offline		
+0x2ec4	31	string	Loss result: {0}/{1} ({2:0.0}%)		
+0x2ee8	5	string	<.*?>		
+0x2ef4	14	string	commands:usage		
+0x2f08	6	string	player		
+0x2f14	39	string	Unable to determine SteamID for caller.		
+0x2f40	39	string	wss://api.proton-anticheat.dev/cloud/ac	06000e67@0x28d957e0130	dec=6000006 id=9f8dc5c9 mode=0
+0x2f6c	33	string	wss://pro.sarshane.store/cloud/ac	06000e67@0x28d957e0170	dec=6000004 id=3aa8669d mode=3
+0x2f94	25	string	Force unloading plugin...		
+0x2fb4	15	string	Cloud connected	06000eaa@0x28d958dda08	dec=6000006 id=1489c0b4 mode=0
+0x2fc8	18	string	Cloud disconnected		
+0x2fe0	16	string	Connection ready	06000eb3@0x28d95a01a28	dec=6000003 id=eb82211a mode=2
+0x2ff4	16	string	Session restored		
+0x3008	30	string	Failed to flush packet queue: 		
+0x302c	18	string	. Waiting retry...		
+0x3048	26	string	Error in packet flush loop		
+0x3068	26	string	Failed to parse licenceKey		
+0x3088	8	string	protonac	06000ecd@0x28d95a02a40;06000f1e@0x28d95a04230;06000faa@0x28d95a0d018	dec=6000004 id=1816ab0c mode=3
+0x3094	23	string	Authentification sended	06000ecd@0x28d95a02908	dec=6000004 id=a61f4163 mode=3
+0x30b0	8	string	/Map.png	06000ed7@0x28d9730b508	dec=6000004 id=a46c8a72 mode=3
+0x30bc	95	string	Failed to synchronize game map image with the server. Glitchbases feature will not be available		
+0x3120	36	string	Uploading game map image to cloud...	06000ed7@0x28d9730ba20	dec=6000006 id=edd46851 mode=0
+0x3148	26	string	Game map upload completed.	06000ed7@0x28d9730bfe0	dec=6000005 id=df3a8e54 mode=3
+0x3168	22	string	Map synced with cloud.		
+0x3184	65	string	Failed to send packet {name} because connection is not authorized		
+0x31cc	26	string	Immediate send failed for 		
+0x3208	35	string	Packet queue full! Dropping packet 		
+0x3230	27	string	Failed to send empty stream		
+0x3250	26	string	Stream too small. {length}		
+0x3270	66	string	Failed to send stream {token} because connection is not authorized		
+0x32f0	27	string	Proton Anticheat loading...	06000f0d@0x28d958b5548	dec=6000004 id=bf97f982 mode=3
+0x3310	15	string	Plugin shutdown		
+0x3324	17	string	Connection closed		
+0x333c	15	string	ProtonAC.Loader	06000f1d@0x28d958c5568;06000f1e@0x28d95a03f78	dec=6000004 id=6d172a69 mode=3
+0x3350	8	string	MemberID	06000f1d@0x28d958c59d8	dec=6000007 id=ad0270e1 mode=1
+0x335c	7	string	Plugins	06000f1e@0x28d95a043a0	dec=6000005 id=dab9dc27 mode=3
+0x3368	10	string	licenceKey	06000f1e@0x28d95a04418	dec=6000006 id=95172543 mode=0
+0x3378	3	string	l: 		
+0x3380	53	string	Proton Cloud executed API REQUEST ({TestName}): {URL}		
+0x33bc	5	string	Dummy		
+0x33d8	6	string	InGame		
+0x33e4	8	string	Battleye		
+0x33f0	4	string	Test		
+0x33f8	7	string	Unknown		
+0x3404	21	string	Client not responding		
+0x3420	71	string	Proton Cloud executed command: '{Command}'. Execution reason: {Comment}		
+0x346c	4	string	None		
+0x3474	25	string	Failed to send log stream		
+0x3494	47	string	[Server]: {description}. Description: {message}		
+0x34cc	92	string	Failed to validate keepalive. key: {key} | timestamp: {timestamp} | decodedKey: {decodedKey}		
+0x352c	42	string	Unloading plugin due to unaunhorized state		
+0x355c	29	string	Continue anticheat session...		
+0x3580	65	string	Failed to accept download part data due to unknown token: {token}		
+0x35c8	56	string	Failed to add token {token} to download queue for {type}		
+0x3604	7	string	handler		
+0x3610	4	string	func		
+0x3618	6	string	packet		
+0x3624	37	string	JSON content cannot be null or empty.		
+0x3650	1	string	:	06001023@0x28d95a2b8d8;06001030@0x28d95a36d70	dec=6000007 id=63ebe6a1 mode=1
+0x3658	7	string	{0}:{1}	06001023@0x28d95a2bbb8	dec=6000006 id=1069398f mode=0
+0x3664	8	string	{0}[{1}]		
+0x3670	4	string	name		
+0x36dc	14	string	OptionalHeader		
+0x36fc	45	string	Unknown 64-bit relocation in a 32-bit process		
+0x3730	23	string	Unknown relocation: {0}		
+0x374c	24	string	Cannot load dependency: 		
+0x377c	28	string	Error protecting memory page		
+0x37b4	37	string	Bad image format: Wrong magic number.		
+0x37e0	37	string	Bad image format: Wrong architecture.		
+0x380c	46	string	Only ELF dynamic shared objects are supported.		
+0x3840	32	string	Invalid ELF program header size.		
+0x3864	32	string	Invalid ELF section header size.		
+0x3888	23	string	Failed to load assembly		
+0x38a4	17	string	Bad image format.		
+0x38bc	47	string	Failed to allocated memory for program headers.		
+0x38f0	33	string	Cannot protect memory at: 0x{0:x}		
+0x3918	34	string	Unimplemented relocation type: {0}		
+0x3940	48	string	Cannot load assembly: Failed to resolve symbol: 		
+0x3974	9	string	plaintext		
+0x3984	5	string	count		
+0x3990	29	string	Segment is outside the buffer		
+0x39b4	5	string	input		
+0x39c0	15	string	Input too short		
+0x3a34	1	string	-		
+0x3a3c	26	string	Resetting session state...		
+0x3a5c	21	string	Stopping listen loop.		
+0x3a78	63	string	Close called. Reconnect: {0}, ContinueSession: {1}, Reason: {2}		
+0x3abc	66	string	ConnectInternal: Cancellation requested before connection attempt.		
+0x3b04	78	string	ConnectInternal: Disposing existing client (State: {0}) before new connection.		
+0x3b58	10	string	User-Agent		
+0x3b68	111	string	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36		
+0x3bdc	15	string	Accept-Language		
+0x3bf0	23	string	en-US,en;q=0.9,ru;q=0.8		
+0x3c0c	13	string	Cache-Control		
+0x3c20	8	string	no-cache		
+0x3c2c	6	string	Pragma		
+0x3c38	51	string	Attempting to connect to server with SessionId: {0}		
+0x3c70	13	string	Connecting...		
+0x3c84	47	string	Connection timed out during connection attempt.		
+0x3cb8	38	string	Connection cancelled by overall token.		
+0x3ce4	54	string	Failed to connect to the server (WebSocketException): 		
+0x3d20	30	string	status code\\s*'(?<code>\\d{3})'		
+0x3d44	4	string	code		
+0x3d50	35	string	Incorrect user credentionals (401).		
+0x3d78	38	string	Connection failed with status code {0}		
+0x3da8	16	string	Forbidden (403).		
+0x3dbc	40	string	Internal server error (500). Will retry.		
+0x3de8	43	string	Unexpected error connecting to server: \n{0}		
+0x3e1c	9	string	Forbidden		
+0x3e2c	21	string	Authentication Failed		
+0x3e48	20	string	Server shutting down		
+0x3e60	96	string	HandleDisconnection skipped: (IsReconnecting: {0}, AttemptReconnect: {1}, LifetimeCanceled: {2})		
+0x3ec4	83	string	Disconnected. Status: {0}, Reason: {1}. AttemptReconnect: {2}, ContinueSession: {3}		
+0x3f44	19	string	ListenLoop started.		
+0x3f5c	77	string	ListenLoop: Received Close message from server. Status: {0}, Description: {1}		
+0x3fb0	22	string	Server initiated close		
+0x3fcc	19	string	ECH session reset, 		
+0x3fe8	16	string	Decryption error		
+0x4000	28	string	Packet deserialization error		
+0x4020	28	string	Decryption keypair not found		
+0x4040	21	string	Session {0} restored!		
+0x405c	71	string	New session started, unload resourses and start new encryption proccess		
+0x40ac	17	string	Encryption sended		
+0x40c4	59	string	Received non-encryption packet before handshake completion.		
+0x4104	45	string	Received response for unknown transaction {0}		
+0x4138	64	string	ListenLoop canceled as requested by the main cancellation token.		
+0x417c	37	string	Receive timeout, server unresponsive.		
+0x41a8	33	string	Unexpected error in listen loop: 		
+0x41d0	17	string	ListenLoop ended.		
+0x41e8	34	string	Abnormal state during transmission		
+0x4210	23	string	Incorrect data sequence		
+0x422c	19	string	Serialization error		
+0x4244	24	string	Error process ECH buffer		
+0x4260	34	string	Packet array cannot be zero length		
+0x428c	12	string	Send error: 		
+0x429c	26	string	Expected response of type 		
+0x42bc	10	string	, but got 		
+0x42cc	51	string	Successfully connected on initial attempt to server		
+0x4304	67	string	Initial connection to server failed. Starting reconnection process.		
+0x434c	47	string	Fatal authentication error on initial connect: 		
+0x4380	35	string	. Stopping all connection attempts.		
+0x43a8	31	string	Authentication Failed (401/403)		
+0x43cc	45	string	Reconnect loop already in progress. Skipping.		
+0x4400	56	string	Overall cancellation requested. Won't attempt reconnect.		
+0x443c	29	string	Starting reconnect process...		
+0x4460	30	string	Cannot reconnect, URI is null.		
+0x4484	36	string	Reconnect attempt {0}/{1} in {2}s...		
+0x44ac	38	string	Attempting connection (Attempt {0})...		
+0x44d8	21	string	Reconnect successful.		
+0x44f4	41	string	Reconnect attempt {0} failed (retriable).		
+0x4524	28	string	Fatal authentication error: 		
+0x4544	26	string	. Stopping reconnect loop.		
+0x4564	77	string	Failed {0} reconnect attempts. Resetting session and waiting for {1} minutes.		
+0x45b8	46	string	Max reconnect attempts reached. Session reset.		
+0x45ec	57	string	Long wait finished. Restarting 5-attempt reconnect cycle.		
+0x462c	26	string	Reconnect loop terminated.		
+0x464c	16	string	Cannot convert '		
+0x4660	11	string	' to UInt64		
+0x4670	70	string	ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*		
+0x46bc	4	string	main		
+0x46c8	5	string	0;0;0		
+0x46d4	8	string	UMapNode		
+0x46e0	3	string	 { 		
+0x46e8	7	string	Name = 		
+0x46f4	6	string	, X = 		
+0x4700	6	string	, Y = 		
+0x4754	50	string	Unknown packet id {0} (raw: {1}) for direction {2}		
+0x478c	4	string	.mp4		
+0x4794	9	string	sendVideo		
+0x47a4	4	string	.png		
+0x47ac	4	string	.jpg		
+0x47b4	5	string	.jpeg		
+0x47c0	9	string	sendPhoto		
+0x47d0	7	string	chat_id		
+0x47dc	17	string	message_thread_id		
+0x47f4	4	string	true		
+0x47fc	24	string	disable_web_page_preview		
+0x4818	5	string	photo		
+0x4824	5	string	video		
+0x4830	4	string	text		
+0x4838	7	string	caption		
+0x4844	8	string	Markdown		
+0x4850	10	string	parse_mode		
+0x4860	28	string	https://api.telegram.org/bot		
+0x4880	11	string	sendMessage		
+0x4890	5	string	title		
+0x489c	3	string	url		
+0x48a4	5	string	value		
+0x48b0	6	string	inline		
+0x48bc	5	string	color		
+0x48c8	9	string	timestamp		
+0x48d8	1	string	o		
+0x48e0	8	string	icon_url		
+0x48ec	6	string	footer		
+0x48f8	6	string	fields		
+0x4904	11	string	description		
+0x4914	8	string	username		
+0x4920	10	string	avatar_url		
+0x4930	6	string	embeds		

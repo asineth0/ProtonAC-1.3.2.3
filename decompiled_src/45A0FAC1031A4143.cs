@@ -1,0 +1,4 @@
+public interface _45A0FAC1031A4143 : B2E071EB09EF4831
+{
+	void _058D7D2916534402();
+}

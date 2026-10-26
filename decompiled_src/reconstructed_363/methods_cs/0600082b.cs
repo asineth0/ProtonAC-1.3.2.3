@@ -1,0 +1,58 @@
+// ============================================================
+// token 0x0600082b   269EE5A44F844EAA::79AE08AF7B3B4851
+// native code: 0x28d970c9b30  (957 bytes)
+// kind: SMALL_CALL   confidence: behavior
+// original IL signature:
+//   .method public hidebysig virtual
+//   instance void '79AE08AF7B3B4851' () cil managed
+//   
+// native-calls: 06000836,06000837
+// native-strings: 
+// ============================================================
+
+public  void 79AE08AF7B3B4851()
+{
+    // Behavior-level reconstruction (native address order).
+    // This method is part of the obfuscated/hot startup path; the exact IL
+    // is replaced by the recovered call sequence and string references.
+    // 16 call(s):
+    //   0x28d970c9b80  ALLOC_OBJECT(0x28d96635058)
+    //   0x28d970c9ba8  WBARRIER((ALLOC_OBJECT(0x28d96635058) add 0x20), ?)
+    //   0x28d970c9bf8  269EE5A44F844EAA::D5FA3B7F2185424D(0x28d03f81d00.f0, ALLOC_OBJECT(0x28d96635058))
+    //   0x28d970c9c48  WBARRIER(0x28d03f81d00, ALLOC_OBJECT(0x28d96635058))
+    //   0x28d970c9c80  ALLOC_OBJECT(0x28d96635218)
+    //   0x28d970c9ca8  WBARRIER((ALLOC_OBJECT(0x28d96635218) add 0x20), ALLOC_OBJECT(0x28d96635058))
+    //   0x28d970c9cf8  269EE5A44F844EAA::D5FA3B7F2185424D(0x28c84109b50.f0, ALLOC_OBJECT(0x28d96635218))
+    //   0x28d970c9d48  WBARRIER(0x28c84109b50, ALLOC_OBJECT(0x28d96635218))
+    //   0x28d970c9d80  ALLOC_OBJECT(0x28d9683b260)
+    //   0x28d970c9da8  WBARRIER((ALLOC_OBJECT(0x28d9683b260) add 0x20), ALLOC_OBJECT(0x28d96635218))
+    //   0x28d970c9df8  269EE5A44F844EAA::D5FA3B7F2185424D(0x28c84109b48.f0, ALLOC_OBJECT(0x28d9683b260))
+    //   0x28d970c9e48  WBARRIER(0x28c84109b48, ALLOC_OBJECT(0x28d9683b260))
+    //   0x28d970c9e60  269EE5A44F844EAA::5DE3E225028C49D9(this)
+    //   0x28d970c9e90  THROW(0x14b, 0x79)
+    //   0x28d970c9ea8  THROW(0x162, 0x122)
+    //   0x28d970c9ec0  THROW(0xf3, 0x160)
+    // 21 store(s):
+    //   0x28d970c9b8f  ALLOC_OBJECT(0x28d96635058) <- this
+    //   0x28d970c9bbd  ALLOC_OBJECT(0x28d96635058) <- 0x28d96636518
+    //   0x28d970c9bcb  ALLOC_OBJECT(0x28d96635058) <- 0x28d96635120
+    //   0x28d970c9bdd  ALLOC_OBJECT(0x28d96635058) <- 0x28d96635128.f28
+    //   0x28d970c9be5  ALLOC_OBJECT(0x28d96635058) <- 0x28d96635128.f20
+    //   0x28d970c9be9  ALLOC_OBJECT(0x28d96635058) <- 0x0
+    //   0x28d970c9c2d  0x28d03f81d00 <- 269EE5A44F844EAA::D5FA3B7F2185424D(0x28d03f81d00.f0, ALLOC_OBJECT(0x28d96635058))
+    //   0x28d970c9c8f  ALLOC_OBJECT(0x28d96635218) <- this
+    //   0x28d970c9cbd  ALLOC_OBJECT(0x28d96635218) <- 0x28d96636748
+    //   0x28d970c9ccb  ALLOC_OBJECT(0x28d96635218) <- 0x28d966352e0
+    //   0x28d970c9cdd  ALLOC_OBJECT(0x28d96635218) <- 0x28d966352e8.f28
+    //   0x28d970c9ce5  ALLOC_OBJECT(0x28d96635218) <- 0x28d966352e8.f20
+    //   0x28d970c9ce9  ALLOC_OBJECT(0x28d96635218) <- 0x0
+    //   0x28d970c9d2d  0x28c84109b50 <- 269EE5A44F844EAA::D5FA3B7F2185424D(0x28c84109b50.f0, ALLOC_OBJECT(0x28d96635218))
+    //   0x28d970c9d8f  ALLOC_OBJECT(0x28d9683b260) <- this
+    //   0x28d970c9dbd  ALLOC_OBJECT(0x28d9683b260) <- 0x28d96636930
+    //   0x28d970c9dcb  ALLOC_OBJECT(0x28d9683b260) <- 0x28d96635340
+    //   0x28d970c9ddd  ALLOC_OBJECT(0x28d9683b260) <- 0x28d96635348.f28
+    //   0x28d970c9de5  ALLOC_OBJECT(0x28d9683b260) <- 0x28d96635348.f20
+    //   0x28d970c9de9  ALLOC_OBJECT(0x28d9683b260) <- 0x0
+    //   0x28d970c9e2d  0x28c84109b48 <- 269EE5A44F844EAA::D5FA3B7F2185424D(0x28c84109b48.f0, ALLOC_OBJECT(0x28d9683b260))
+    // returns: 269EE5A44F844EAA::5DE3E225028C49D9(this)
+}

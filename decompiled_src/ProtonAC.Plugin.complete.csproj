@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>ProtonAC.Plugin.1.3.2.3</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <!-- The 363 reconstructions are reference/documentation sources, not part of the compilable assembly. -->
+    <Compile Remove="reconstructed_363\**\*.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="ProtonAC.UniTask"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Modules\ProtonAC.Loader\Libs\ProtonAC.UniTask.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Modules\ProtonAC.Loader\Libs\0Harmony.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="ProtonAC.Microsoft.Extensions.Configuration.Abstractions"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Modules\ProtonAC.Loader\Libs\ProtonAC.Microsoft.Extensions.Configuration.Abstractions.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="ProtonAC.Microsoft.Extensions.Logging.Abstractions"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Modules\ProtonAC.Loader\Libs\ProtonAC.Microsoft.Extensions.Logging.Abstractions.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="ProtonAC.Microsoft.Extensions.Localization.Abstractions"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Modules\ProtonAC.Loader\Libs\ProtonAC.Microsoft.Extensions.Localization.Abstractions.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Unturned_Data\Managed\UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Assembly-CSharp"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Unturned_Data\Managed\Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.PhysicsModule"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Unturned_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="SDG.NetTransport"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Unturned_Data\Managed\SDG.NetTransport.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="com.rlabrecque.steamworks.net"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Unturned_Data\Managed\com.rlabrecque.steamworks.net.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="ProtonAC.System.Text.Json"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Modules\ProtonAC.Loader\Libs\ProtonAC.System.Text.Json.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="SDG.NetPak.Runtime"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Unturned_Data\Managed\SDG.NetPak.Runtime.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="ProtonAC.LiteDB"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Modules\ProtonAC.Loader\Libs\ProtonAC.LiteDB.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="ProtonAC.MySqlConnector"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Modules\ProtonAC.Loader\Libs\ProtonAC.MySqlConnector.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="ProtonAC.YamlDotNet"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Modules\ProtonAC.Loader\Libs\ProtonAC.YamlDotNet.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="BouncyCastle.Crypto"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Modules\ProtonAC.Loader\BouncyCastle.Crypto.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Newtonsoft.Json"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Unturned_Data\Managed\Newtonsoft.Json.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="ProtonAC.Microsoft.Extensions.Logging"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Modules\ProtonAC.Loader\Libs\ProtonAC.Microsoft.Extensions.Logging.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.AssetBundleModule"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Unturned_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEx"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Unturned_Data\Managed\UnityEx.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Unturned_Data\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.VehiclesModule"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Unturned_Data\Managed\UnityEngine.VehiclesModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="ProtonAC.Microsoft.Extensions.Configuration.Binder"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Modules\ProtonAC.Loader\Libs\ProtonAC.Microsoft.Extensions.Configuration.Binder.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Unturned_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="ProtonAC.Microsoft.Extensions.Configuration"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Modules\ProtonAC.Loader\Libs\ProtonAC.Microsoft.Extensions.Configuration.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="ProtonAC.System.Runtime.CompilerServices.Unsafe"><HintPath>D:\SteamLibrary\steamapps\common\U3DS\Modules\ProtonAC.Loader\Libs\ProtonAC.System.Runtime.CompilerServices.Unsafe.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+using System.Runtime.CompilerServices;
+
+internal static class _85C7932EE3C64005
+{
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public static ulong _4383D93C075A4E5F(ulong P_0)
+	{
+		return (ulong)((((((((long)P_0 * _003CModule_003E._3F57E81A62734AC2<long>(1782767736)) ^ _003CModule_003E.F84FA79ABE6944BB<long>(1335950801)) - _003CModule_003E.F84FA79ABE6944BB<int>(649964723)) * _003CModule_003E._390073C602714496<long>(3817786) + _003CModule_003E.F84FA79ABE6944BB<int>(-1065000472)) ^ _003CModule_003E._8B9C7B12B1AE4949<long>(1041846207)) * _003CModule_003E._8B9C7B12B1AE4949<long>(-974434255) - _003CModule_003E._58ECCB512F2A43AC<int>(742897266)) ^ _003CModule_003E._58ECCB512F2A43AC<long>(-1217714379));
+	}
+}

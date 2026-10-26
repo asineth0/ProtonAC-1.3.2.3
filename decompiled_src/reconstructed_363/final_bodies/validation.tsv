@@ -1,0 +1,225 @@
+token	style	native_unique	emitted_unique	unmatched_emitted	missing_unique
+06000019	lifted-cs	22	8	CopyBlock;DecodeDirectBits;DecodeNormal;GetByte;GetLenToPosState;Init;PutByte;ReverseDecode	05DC7082FEF04055;24916B1DB2C04FBB;4001CF03F30D4B13;44790D73906349FF;46D3C85671FF4A4D;4C26482FE8BB4317;5987B87C107C408B;7258175EBFC64560;7D0E9FA074614AB3;7F0F018E704241F8;812BA9180E8E48BF;8327E502A29C4E7A;9385437DDFDE4D95;A9A16D03ACAE49E8;D78845C868574748;D949363E06D14437;D9FBF049DA9C4CF1;DA569CD2D6D24F3E;DF4C66DD7D7E4F9A;EDD9BC0532B04B33;EE2DC035FE6D4792;F05E99D5952142B7
+06000028	lifted-cs	1	0		9385437DDFDE4D95
+06000029	lifted-cs	1	0		9385437DDFDE4D95
+06000078	hand-cs	0	0		
+0600007a	hand-cs	0	0		
+0600007c	lifted-cs	18	13		
+06000092	lifted-cs	1	0		.ctor
+06000093	dispatch-sim	16	14		733FABCB748D464F;79B63D63B9B6430E
+06000094	lifted-cs	2	1		AddWithResize
+06000096	dispatch-sim	5	1		get_Item
+060000af	lifted-cs	1	1		
+060000b0	lifted-cs	2	1		
+060000ba	dispatch-sim	15	10		FF6A8097C8474BC4
+060000bc	lifted-cs	19	15		
+060000be	lifted-cs	4	4		
+060000bf	lifted-cs	3	3		
+060000c2	lifted-cs	3	2		
+060000c3	lifted-cs	3	0		Start;get_Task
+0600012f	dispatch-sim	12	10		B8AC76D0B7474AA5;BD4D8AA2F9B24EF3
+06000130	lifted-cs	1	0		AddWithResize
+06000155	lifted-cs	4	0		.ctor;FieldRefAccess;sub_28b82782ba0
+06000185	lifted-cs	4	0		Start;get_Task;memset
+060001bd	lifted-cs	0	0		
+060001be	stub-cs	1	0		get_ElapsedMilliseconds
+060001e5	lifted-cs	2	0		Join;op_Inequality
+060001e7	lifted-cs	2	1	D52BEF2278B4471D	.ctor;sub_28d95868d30
+06000202	dispatch-sim	2	1		.ctor
+0600020a	lifted-cs	4	1	1469CBB6811C4870	FromMilliseconds;FromSeconds
+06000244	stub-cs	0	0		
+06000269	stub-cs	2	0		sub_28c8598bdd0;sub_7fff673b5cf0
+0600026c	lifted-cs	2	0		Start;get_Task
+0600026d	lifted-cs	5	0		GetEnumerator;MoveNext;op_Equality;sub_28b82785f1f;sub_28d970b796d
+0600026f	lifted-cs	2	0		Start;get_Task
+06000270	lifted-cs	1	1	Boolean	.ctor
+06000271	lifted-cs	1	0		sub_28ca751c6c0
+06000272	lifted-cs	1	0		sub_28ca751c6c0
+06000273	lifted-cs	2	2		
+06000277	lifted-cs	0	0		
+06000278	lifted-cs	1	1		
+0600028f	dispatch-sim	8	4		.ctor;354F80C02D9F4151;89B4055E65CA46C4;CreateSingleConsumerUnbounded
+06000292	dispatch-sim	4	0		Start;get_Task;memset
+060002a8	lifted-cs	2	2		
+06000361	lifted-cs	1	0		.ctor
+06000362	stub-cs	1	0		
+0600037e	lifted-cs	3	2		.ctor
+0600037f	stub-cs	4	0		FromSeconds
+0600043b	lifted-cs	11	5		.ctor;TryDequeue;Wait;get_IsCancellationRequested;sub_28b82785f1f;sub_28d97013710
+0600043c	lifted-cs	3	0		Start;get_Task;memset
+0600043e	lifted-cs	2	0		Start;get_Task
+0600044d	lifted-cs	1	1		
+06000467	dispatch-sim	3	0		Start;get_Task
+06000468	lifted-cs	4	0		Start;get_Task;memset
+0600046a	lifted-cs	5	3		
+06000499	lifted-cs	3	2		.ctor
+060004a9	lifted-cs	3	2		.ctor
+060004b8	lifted-cs	3	2		.ctor
+060004e7	lifted-cs	0	0		
+060004e8	lifted-cs	3	0		get_ASCII;memcpy;sub_28d95868d30
+060004ec	lifted-cs	3	2	9942B87C04F948C0;EE42452E13184BF0	Method;Property;sub_28b82780dcb
+060004ed	lifted-cs	2	1		sub_28b82782ba0
+060004f9	stub-cs	2	0		FieldRefAccess;sub_28d95868d30
+060004ff	lifted-cs	8	3	18821157D5754512;C01D94B9EF1A4342;DF99DA15D9EC43A6	.ctor;AddRange;AddWithResize;Calls;InsertRange;Method;ToList;get_Item
+0600050c	stub-cs	2	0		FieldRefAccess;sub_28d95868d30
+0600050d	stub-cs	1	0		get_Item
+0600050e	lifted-cs	2	0		.ctor;AddWithResize
+0600050f	lifted-cs	1	0		op_Equality
+06000510	lifted-cs	2	2	18821157D5754512;C01D94B9EF1A4342	.ctor;Method
+06000511	lifted-cs	2	1	C01D94B9EF1A4342	.ctor;get_Item
+0600051c	stub-cs	2	1		sub_28d95868d30
+0600051d	lifted-cs	1	0		op_Equality
+0600051e	lifted-cs	1	0		op_Equality
+0600051f	stub-cs	2	1		sub_28d95868d30
+06000520	stub-cs	2	1		sub_28d95868d30
+06000539	lifted-cs	4	1	4CEFA97A389F4CA1	FieldRefAccess;MethodDelegate;PropertyGetter;sub_28d95868d30
+06000544	lifted-cs	6	4	18821157D5754512;B902554C47F4464A	.ctor;Field;Method;sub_28d95868d30
+06000566	lifted-cs	2	1	Equals	GetValue;sub_28d95868d30
+0600063a	dispatch-sim	3	2		A4E09B54247E4955
+0600063c	lifted-cs	4	1		GetValue
+06000642	stub-cs	4	2		
+0600064b	lifted-cs	3	3		
+0600064d	lifted-cs	5	1		GetValue
+06000661	dispatch-sim	7	2		A636D00EF74944C6
+060006a8	lifted-cs	2	2		
+060006ab	lifted-cs	14	8		.ctor;AddWithResize;ToArray;TryParse
+060006af	stub-cs	3	2		.ctor
+060006b0	dispatch-sim	6	0		sub_28b82782ba0
+060006d1	lifted-cs	5	2		.ctor;99A93C8FCF084453;sub_28d95868d30
+060006d7	lifted-cs	2	1		Combine
+060006d9	lifted-cs	3	2	476021DB46E44E95	Format;GetValue
+060006dd	lifted-cs	4	1	44E3775C76EA45B6	.ctor;FieldRefAccess;PropertySetter;sub_28d95868d30
+060006e4	stub-cs	0	0		
+060006f1	stub-cs	0	0		
+060006f6	lifted-cs	2	2		
+060006fa	dispatch-sim	2	0		
+0600071a	lifted-cs	3	3		
+0600071c	lifted-cs	6	1		GetValue
+0600073a	lifted-cs	8	2		GetValue
+06000786	lifted-cs	0	0		
+06000787	lifted-cs	2	2		
+06000789	lifted-cs	4	1		GetValue
+06000791	lifted-cs	5	1		Combine;add_OnGestureChanged_Global;add_onBattlEyeKick;add_onBulletHit
+060007a7	stub-cs	5	3	569686D00A854548	99A93C8FCF084453;Get;sub_28d95868d30
+060007e7	lifted-cs	1	0		.ctor
+060007fc	stub-cs	1	1	C7AFC030184D4172	Patch
+06000805	lifted-cs	4	2		Any
+06000813	lifted-cs	2	2		
+06000815	lifted-cs	4	1		GetValue
+0600082b	lifted-cs	2	2		
+0600082d	lifted-cs	5	1		GetValue
+06000835	lifted-cs	6	2		FieldRefAccess
+06000855	lifted-cs	4	1		GetValue
+06000857	lifted-cs	2	1		Combine
+06000859	lifted-cs	4	1		Get;GetValue;sub_28b82780dcb
+0600085d	lifted-cs	4	2		.ctor;sub_28d95868d30
+060008b5	lifted-cs	0	0		
+060008c2	stub-cs	0	0		
+060008ce	lifted-cs	1	0		.ctor
+0600093f	lifted-cs	2	1	Equals	GetValue;sub_28d95868d30
+06000953	lifted-cs	1	0		.ctor
+0600095e	lifted-cs	12	2		AddWithResize;DAF10031C08449F7;E797B23ED8FB4F22;FF62ABE9C6104A2E;GetEnumerator;MoveNext;Remove;sub_28b82785f1f;sub_28d97314e85;sub_28d97314f3d
+06000965	lifted-cs	1	0		.ctor
+06000969	lifted-cs	1	1	AE8979A166C64D26	.ctor
+0600096a	lifted-cs	0	0		
+0600096c	lifted-cs	1	0		BB9943733A5F44E5
+0600096d	lifted-cs	0	1	NotSupportedException	
+0600096e	lifted-cs	0	0		
+06000cec	lifted-cs	0	0		
+06000cee	stub-cs	2	0		
+06000cfd	lifted-cs	4	2		
+06000cfe	lifted-cs	11	7	1B76CDCDA5AD47B0	AddMonths;get_Now
+06000cff	lifted-cs	1	1		
+06000d0f	lifted-cs	12	6	E24E36E66E444DDE	CreateSingleConsumerUnbounded;MethodDelegate
+06000d10	lifted-cs	1	1		
+06000d11	lifted-cs	4	0		Start;get_Task;memset
+06000d12	dispatch-sim	6	2		
+06000d13	lifted-cs	3	1		
+06000d14	stub-cs	2	0		
+06000d3f	lifted-cs	0	0		
+06000d40	stub-cs	1	1		
+06000d46	stub-cs	1	1		
+06000d6b	lifted-cs	5	4	0B1227EB3A824F28;AA29B2005B934E27;C6F757F3517C45E1	.ctor;Combine;CreateDirectory;IsNullOrWhiteSpace
+06000d6c	lifted-cs	9	4	4AA0B6CB62334AA1;54AEFB29825643AD;8A8A6A3C81F4471D;9843C6951CAA45ED	GetCollection;GetMethodFromHandle;Lambda;Parameter;Property;sub_28b82785f1f;sub_28ccccae950;sub_28d9703f30d;sub_7fff672fcbd0
+06000e67	lifted-cs	14	9	95D359E5341A4936	.ctor;FromMinutes
+06000e68	lifted-cs	4	0		Start;get_Task;memset
+06000e69	dispatch-sim	6	4		0C15A70DCCED4B88;A6AFAEB843D843C0
+06000e6a	lifted-cs	3	0		Start;get_Task
+06000e6b	dispatch-sim	3	0		Start;get_Task
+06000e6c	lifted-cs	3	0		Start;get_Task
+06000e6e	lifted-cs	1	1		
+06000e6f	dispatch-sim	16	14		9060B8453FD24C2A;9C2EAB8E11914432
+06000e72	lifted-cs	3	0		Start;get_Task
+06000e74	lifted-cs	1	1		
+06000e76	lifted-cs	4	0		Start;get_Task;memset
+06000e78	lifted-cs	3	0		Start;get_Task
+06000e79	lifted-cs	4	0		Start;get_Task;memset
+06000f1c	lifted-cs	1	0		.ctor
+06000f1d	lifted-cs	19	12		ToString;TryParse;sub_28b82785f1f;sub_28d958c5ad0
+06000f1e	lifted-cs	22	13		ToString;TryParse;sub_28b82785f1f;sub_28d95a046d8
+06000f1f	lifted-cs	2	2		
+06000f46	lifted-cs	4	0		Start;get_Task;memset
+06000f57	lifted-cs	2	2		
+06000f6b	lifted-cs	2	2		
+06000f76	lifted-cs	2	2		
+06000f9c	lifted-cs	3	0		Start;get_Task
+06000fa8	lifted-cs	3	0		Start;get_Task
+06000fc4	lifted-cs	3	0		Start;get_Task
+06001007	lifted-cs	9	6		TryGetValue
+06001008	lifted-cs	1	0		.ctor
+06001022	lifted-cs	15	9		.ctor;sub_28b82785f1f;sub_28d95a1cc88
+06001023	lifted-cs	18	12	0549D438EB594BDD;19230E9F6DD14B37;1BA897AD7E174710;458B6CE8CD41437A;7850E93C6DB34E61;78D12C3B593C4A4D;93BB358F82C243E8;E8A421893BEC4147	EnumerateArray;EnumerateObject;MoveNext;ToString;get_Current;get_Name;get_ValueKind;set_Item;sub_28b82785f1f;sub_28d95a2ba18;sub_28d95a2bd00
+0600102f	lifted-cs	11	6		.ctor;sub_28b82785f1f;sub_28d95a36555
+0600104f	lifted-cs	4	1	1BA897AD7E174710	get_ValueKind
+06001050	lifted-cs	1	1	78D12C3B593C4A4D	ToString
+06001068	stub-cs	3	3		
+0600106c	lifted-cs	0	0		
+06001072	stub-cs	1	0		.ctor
+06001073	stub-cs	1	0		.ctor
+060012c9	lifted-cs	4	1		.ctor;184044A093C04AF2
+060012d7	stub-cs	0	0		
+060012dd	lifted-cs	2	2		
+060012ea	stub-cs	4	0		.ctor;184044A093C04AF2
+060012ec	lifted-cs	8	5		.ctor;184044A093C04AF2
+060012ef	lifted-cs	9	7		sub_28b82785f1f;sub_28d95a000e0
+060012f1	lifted-cs	5	5		
+06001306	dispatch-sim	6	0		.ctor;184044A093C04AF2;Start;get_Task;memset
+0600130b	lifted-cs	1	0		sub_28d0e1c2b20
+0600130c	hand-cs	1	0		TransformBlock
+06001332	stub-cs	3	0		.ctor;184044A093C04AF2
+06001333	lifted-cs	4	1		.ctor;184044A093C04AF2
+06001334	lifted-cs	2	1		sub_28c85c9b7f0
+06001336	lifted-cs	2	1		sub_28c85c9b7f0
+06001338	lifted-cs	2	1		sub_28c85c9b7f0
+0600133a	lifted-cs	2	1		sub_28c85c9b7f0
+0600133c	lifted-cs	2	1		sub_28c85c9b7f0
+0600133e	lifted-cs	2	1		sub_28c85c9b7f0
+06001341	dispatch-sim	6	0		.ctor;184044A093C04AF2;Start;get_Task;memset
+06001343	dispatch-sim	6	0		.ctor;184044A093C04AF2;Start;get_Task;memset
+06001347	stub-cs	6	0		.ctor;184044A093C04AF2;Clear;get_Values;sub_28b82785f1f;sub_28d958de900
+06001348	dispatch-sim	7	5		.ctor;184044A093C04AF2
+06001349	lifted-cs	6	0		.ctor;184044A093C04AF2;Start;get_Task;memset
+0600134b	lifted-cs	6	3		.ctor;184044A093C04AF2
+06001430	lifted-cs	12	7		.ctor;184044A093C04AF2;Reverse;sub_28b82780dcb
+06001432	lifted-cs	9	4		.ctor;184044A093C04AF2
+06001445	lifted-cs	1	0		.ctor
+0600147e	lifted-cs	1	0		.ctor
+060014ae	lifted-cs	1	0		.ctor
+0600150c	lifted-cs	4	3		.ctor
+0600150d	lifted-cs	5	5		
+0600150f	lifted-cs	10	6		.ctor;184044A093C04AF2
+0600152d	dispatch-sim	2	1		.ctor
+06001549	lifted-cs	4	3		.ctor
+06001573	lifted-cs	6	3		.ctor;184044A093C04AF2
+0600160b	stub-cs	1	0		.ctor
+06001657	dispatch-sim	3	0		.ctor;184044A093C04AF2
+060016a6	lifted-cs	1	0		.ctor
+0600174b	lifted-cs	1	0		.ctor
+06001825	dispatch-sim	6	4		12ED42FFFB7F4842;Parse
+06001856	stub-cs	5	0		.ctor;ContainsKey;get_Item;set_Item;sub_28b82782ba0
+06001857	hand-cs	1	0		get_Item
+06001858	lifted-cs	11	2		.ctor;184044A093C04AF2;GetEnumerator;MoveNext;get_Item;sub_28b82782ba0;sub_28b82785f1f;sub_28d959e7398
+06001936	stub-cs	3	0		.ctor;184044A093C04AF2
+0600193d	lifted-cs	4	1		.ctor;184044A093C04AF2
+06001942	lifted-cs	0	0		
+06001943	lifted-cs	0	0		
