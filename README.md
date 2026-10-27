@@ -6,7 +6,7 @@ hi guys it's favorite chairman of the CCP, Xi Jinping here again with big releas
 
 ProtonAC is a vibe-coded AI slop anti-cheat coded by a couple retarded russians who can barely code or use a computer. most of the code you will see is stolen from [Darkness Anti-Cheat](https://github.com/Darkness-Anti-Cheat/Darkness-AntiCheat) which is a free and public anti-cheat on GitHub.
 
-it is also used on the popular server "Unturned Roleplay" owned by a big youtuber who refuses to ban pedophiles on his server where he promotes gambling to kids.
+it is also used on the popular server "Unturned Roleplay" owned by a big youtuber on his server where he promotes gambling to kids.
 
 ## overview
 
